@@ -2,28 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://stefvardalos.github.io/blog/commonclientguide/</loc>
-    <lastmod>2017-05-01T19:08:01+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://stefvardalos.github.io/blog/yo/</loc>
     <lastmod>2017-05-01T19:08:01+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stefvardalos.github.io/blog/firstpost/</loc>
-    <lastmod>2017-05-01T18:54:16+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stefvardalos.github.io/blog/test/</loc>
-    <lastmod>2017-05-01T18:54:16+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stefvardalos.github.io/about/</loc>
-    <lastmod>2017-05-01T18:53:45+03:00</lastmod>
   </url>
   
   <url>
@@ -32,8 +12,28 @@
   </url>
   
   <url>
+    <loc>https://stefvardalos.github.io/blog/firstpost/</loc>
+    <lastmod>2017-05-01T10:54:16+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/blog/test/</loc>
+    <lastmod>2017-05-01T10:54:16+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/about/</loc>
+    <lastmod>2017-05-01T10:53:45+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/blog/commonclientguide/</loc>
+    <lastmod>2017-05-01T10:08:01+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://stefvardalos.github.io/categories/angular/</loc>
-    <lastmod>2017-05-01T18:54:16+03:00</lastmod>
+    <lastmod>2017-05-01T10:54:16+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -45,13 +45,13 @@
   
   <url>
     <loc>https://stefvardalos.github.io/categories/</loc>
-    <lastmod>2017-05-01T18:54:16+03:00</lastmod>
+    <lastmod>2017-05-01T10:54:16+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://stefvardalos.github.io/categories/javascript/</loc>
-    <lastmod>2017-05-01T18:54:16+03:00</lastmod>
+    <lastmod>2017-05-01T10:54:16+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -68,7 +68,7 @@
   
   <url>
     <loc>https://stefvardalos.github.io/categories/test/</loc>
-    <lastmod>2017-05-01T18:54:16+03:00</lastmod>
+    <lastmod>2017-05-01T10:54:16+03:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -165,11 +165,11 @@
 
                 
                     <li>
-                        <a href="https://stefvardalos.github.io/blog/commonclientguide/"><p>Electron Application</p></a>
+                        <a href="https://stefvardalos.github.io/blog/yo/"><p>yo</p></a>
                     </li>
                 
                     <li>
-                        <a href="https://stefvardalos.github.io/blog/yo/"><p>yo</p></a>
+                        <a href="https://stefvardalos.github.io/blog/yo2/"><p>yo2</p></a>
                     </li>
                 
             </ul>
@@ -186,7 +186,7 @@
     <header>
     <div class="title">
         
-            <h2><a href="https://stefvardalos.github.io/blog/commonclientguide/">Electron Application</a></h2>
+            <h2><a href="https://stefvardalos.github.io/blog/yo/">yo</a></h2>
         
         
     </div>
@@ -198,9 +198,9 @@
         <time class="published"
             datetime='2017-05-01'>
             May 1, 2017</time>
-        <span class="author">Stefanos Vardalos</span>
+        <span class="author"></span>
         
-            <p>7 minute read</p>
+            <p>0 minute read</p>
         
         
     </div>
@@ -212,31 +212,31 @@
             
 
 
-<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f&text=Electron%20Application&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f&text=yo&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f&title=Electron%20Application" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f&title=yo" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f&title=Electron%20Application" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f&title=yo" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
@@ -245,7 +245,7 @@
 
 
 
-<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -256,271 +256,6 @@
 
     <div id="content">
         
-
-<h1 id="electron-angular-js-commonclient-project">Electron / Angular JS CommonClient Project</h1>
-
-<p>This is a basic development guide for the CommonClient Project. It includes stuff about the project structure, the electron modules, the renderer application (with AngularJS library) and every other key factor that should be mentioned (like static code analysis, proper commenting, unit tests, etc). It will be constantly updated along the way through the development process.</p>
-
-<hr />
-
-<h2 id="installation">Installation</h2>
-
-<h3 id="prerequisites">Prerequisites</h3>
-
-<ol>
-<li>Install Node.JS through <a href="https://nodejs.org/en/download/">official site</a>  or (better) <a href="https://github.com/creationix/nvm">nvm</a></li>
-<li>Install/Update npm
-<code>
-npm install npm@latest -g
-</code></li>
-</ol>
-
-<hr />
-
-<h3 id="project-install">Project install</h3>
-
-<pre><code>git clone commonClient_gitURL
-cd osbiz_desktop
-npm install
-cd app
-npm install
-cd ..
-</code></pre>
-
-<hr />
-
-<h2 id="explanation">Explanation</h2>
-
-<h3 id="structure">Structure</h3>
-
-<ul>
-<li>app
-
-<ul>
-<li>main
-
-<ul>
-<li>app.js</li>
-</ul></li>
-<li>web
-
-<ul>
-<li>assets
-
-<ul>
-<li>icons</li>
-<li>style</li>
-</ul></li>
-<li>components
-
-<ul>
-<li>componentFolder
-
-<ul>
-<li>componentController.js</li>
-<li>componentService.js</li>
-<li>componentView.html</li>
-</ul></li>
-</ul></li>
-<li>app.js</li>
-<li>index.html</li>
-</ul></li>
-<li>node_modules</li>
-<li>package.json</li>
-</ul></li>
-<li>node_modules</li>
-<li>custom_scripts</li>
-<li>.eslintignore</li>
-<li>.eslintrc.json</li>
-<li>.gitignore</li>
-<li>karma.conf.js</li>
-<li>package.json</li>
-</ul>
-
-<hr />
-
-<h3 id="general">General</h3>
-
-<p>For the CommonClient project we use the Two-Package.JSON Structure. With that option, we get two different project.json files with different dependencies which both should be downloaded.</p>
-
-<p>The &ldquo;parent&rdquo; package.json which resides in the root of the application, holds the dependencies for the Electron Application and all the other dependencies that we will use during development and we will not need upon releasing. Below are some &ldquo;family&rdquo; of libraries that should be on this package.json .
-* <a href="https://electron.atom.io/">electron</a>
-* <a href="http://eslint.org/">eslint</a>
-* <a href="https://jasmine.github.io/">jasmine</a>
-* <a href="https://karma-runner.github.io/">karma</a></p>
-
-<p>That package.json also holds our <em>npm run</em> commands. Those commands should be investigated further in another chapter of this guide, but they include, among other things, the production process, the static analysis process, testing process and of course the application start method.</p>
-
-<p>The second package.json which resides inside the <em>/app</em> folder, holds all our dependencies that we are gonna need in the final application (mostly the ones for the Renderer Application that is). Below are some of those libraries.
-* <a href="https://angularjs.org/">AngularJS</a>
-* <a href="http://getbootstrap.com/">bootstrap</a>
-* <a href="https://github.com/trentm/node-bunyan">bunyan</a>
-* <a href="http://lesscss.org/">less</a>
-* <a href="https://pouchdb.com/">pouchdb</a></p>
-
-<hr />
-
-<p>CommonClient Development Process for a new feature includes/should include the following four steps :
-* Proper Development through Modularization
-* Proper Commenting of new code (comments should follow specific rules which will be discussed later on)
-* Successful Static Code Analysis run through ESLint tool, so that new code doesn&rsquo;t introduce potential problems and also follows common style guides
-* Enough Unit Test code so that we have a good coverage score and also be more confident that new code will not break old one</p>
-
-<p>The above steps will be further explained in following paragraphs.</p>
-
-<hr />
-
-<p>For better logging and more efficient bug-fixing, we use the bunyan logging library which outputs pre-constructed json objects for each log. The application logs reside in a user specific folder with a distinct name based on the time period of logging.</p>
-
-<pre><code>cd ~/.config/Electron/logs/
-</code></pre>
-
-<hr />
-
-<p>The folder <em>custom_scripts</em> holds some custom npm scripts that we need to run through node.</p>
-
-<hr />
-
-<p>There are some other folders (<em>build</em> / <em>dist</em> / <em>staging</em>) that are created during the packaging process, they should not be pushed on git and they aren&rsquo;t introduced here but they will be explained on the appropriate chapter.</p>
-
-<hr />
-
-<p>Inside <em>app/main</em> there is a <em>config.templ.json</em> file which holds some local variables which will be used throught development for per-developer optimization. This file should NOT be</p>
-
-<hr />
-
-<h3 id="application-breakdown">Application Breakdown</h3>
-
-<p><strong>The application resides inside <em>app</em> folder. Inside that we find the <em>main</em> and <em>web</em> folders, which correspond to the Electron Application files and the Renderer (AngularJS) Application files respectively.</strong></p>
-
-<ul>
-<li><em>main</em> folder is where our Electron files are. Every other module about the Electron application should reside under this folder
-
-<ul>
-<li>The app.js file is our application entry</li>
-<li>The logger.js file is our logger implementation module. It holds logger specific functions and also the event communication with the Renderer Application about it.</li>
-<li>The utils.js file is our utilities implementation module. It holds generic helper functions and it also reads and makes available the config.json file</li>
-</ul></li>
-<li><em>web</em> folder is where our AngularJS files are. Everything about the Renderer Application should be inside this folder.
-
-<ul>
-<li>The app.js file is our application entry. It also holds our various state&rsquo;s logic for StateProvider.</li>
-<li>The index.html file is our boilerplate template of the application</li>
-<li>The assets folder holds our static files of the application.
-
-<ul>
-<li>The icons folder holds our various icons</li>
-<li>The styles folder holds our .less files. Using less as a preprocessor helps us maintain modularity in css and so we should break down our styles accordingly.</li>
-</ul></li>
-<li>The component folder is where our various components are.
-
-<ul>
-<li>Each component should be in a separate folder with a distinct name
-
-<ul>
-<li>Individual component files must follow proper naming guidelines, like componentService.js , componentController.js and componentView.html</li>
-</ul></li>
-<li>For some more generic helper modules/services, there is a common folder</li>
-</ul></li>
-</ul></li>
-</ul>
-
-<p><strong>In the root folder of the Application there are some third-party configuration files that should be mentioned</strong></p>
-
-<ul>
-<li>karma.conf.js holds our karma configuration for the unit testing process</li>
-<li>.eslintrc.json holds our configuration for the linter tool</li>
-<li>.eslintignore holds the rules for the files that we want to exclude from the linter tool</li>
-<li>.gitignore holds the rules for the files that we want to exclude from git</li>
-</ul>
-
-<hr />
-
-<h2 id="usage">Usage</h2>
-
-<h3 id="project-start">Project start</h3>
-
-<pre><code>npm start
-</code></pre>
-
-<p>Running the above command in the root folder of the application, node will run the electron application and you should see the CommonClient running.</p>
-
-<hr />
-
-<h3 id="test-coverage-start">Test &amp; Coverage start</h3>
-
-<pre><code>npm run test
-</code></pre>
-
-<ul class="task-list">
-<li><input type="checkbox" disabled class="task-list-item"> Further Implement the test suite</li>
-</ul>
-
-<hr />
-
-<h3 id="linter-start">Linter start</h3>
-
-<pre><code>npm run lint
-</code></pre>
-
-<p>Running the above command, you will see the results of your linter. If your code follows all your linter rules, there will be no further output, if not, you should see something like the picture below.
-<img src="/home/steve62742/Documents/CommonclientGuide/commonClientGuide.html_files/linter.png" alt="" />
-Be aware that running the above command the static analysis tool will try to fix the most common issues with you code. It is very rare that this process will break something but if you want only to check your code without any automatic fixing, you should use the following command.</p>
-
-<pre><code>./node_modules/.bin/eslint ./app/
-</code></pre>
-
-<hr />
-
-<h3 id="documentation-start">Documentation start</h3>
-
-<pre><code>npm run doc
-</code></pre>
-
-<ul class="task-list">
-<li><input type="checkbox" disabled class="task-list-item"> Further Impement the Automatic Documentation Generation Process</li>
-</ul>
-
-<p>To produce better and more easily understandable code we must use proper commenting on the majority of our code. Using a predefined structure of comments will enable us to use generators that will produce a very helpful API Documentation</p>
-
-<hr />
-
-<p>The structure that all developers should follow is the following</p>
-
-<pre><code> /**
- * @ngdoc service
- * @name modalService
- * @module commonClient
- * @description Modal service which holds the Modal Prompts
- * @param {Object} $uibModal
- * @returns Modal Instance promise
- */
-</code></pre>
-
-<ul>
-<li>The @ngdoc annotation is used to describe the specific code block. Its values can be service/controller/method</li>
-<li>The @name annotation is used to provide the name of this block. The name must follow a rule of parenting, so a function that resides inside a service should be annotated as ServiceName#MethodName</li>
-<li>The @module annotation is used to provide the current module.</li>
-<li>The @description annotation is used to provide a simple description for the code block</li>
-<li>The @param annotations is used to provide information about the type of the required parameters</li>
-<li>The @return annotation is used to provide information about the type of the return object</li>
-</ul>
-
-<hr />
-
-<h3 id="production-process">Production Process</h3>
-
-<ul class="task-list">
-<li><input type="checkbox" disabled class="task-list-item"> Investigate further if we can proceed with electron-packager</li>
-<li>[] Either way, explore ways to make the process automated, maybe through grunt</li>
-<li>Check if electron is installed in the project root directory (node_modules/electron) and copy the electron.exe  under node_modules/electron/dist and name it &ldquo;CommonClient.exe&rdquo; [optional: use the tool &ldquo;Resource Hacker&rdquo; to change details and the icon of the exe]
-Define the CommonClient.nuspec file in the staging directory (this only needs to be done once - later on only the version should be changed). Here all files that should be included in the build must be specified.</li>
-<li>Package the app folder of the project using the node module &ldquo;asar&rdquo; [just install this module as a global one using the following command: &ldquo;npm install -g asar&rdquo;]. To use asar just type &ldquo;asar pack app/ build/app.asar&rdquo; in the root folder. This will generate the app.asar file in the build folder.</li>
-<li>Now we are ready to build the package used for squirrel. Open a terminal in the staging folder and type &ldquo;nuget pack CommonClient.nuspec&rdquo; this will get us a nuget package with the version number inside the name e.g. &ldquo;CommonClient.20.54.06.nupkg&rdquo;</li>
-<li>Stay in the staging directory and build the executable using the following command &ldquo;Squirrel.exe &ndash;releasify CommonClient.XX.XX.XX.nupkg&rdquo; (replace the XX.XX.XX with your current verison number) other options could be used like &ldquo;&ndash;no-msi&rdquo; if you don&rsquo;t want to get an MSI installer or maybe &ldquo;&ndash;loadingGif&rdquo; to display something to the user while the application is installing.</li>
-<li>If squirrel finished you should have all neccesary files in the &ldquo;Releases&rdquo;-folder (which is the default one).</li>
-</ul>
-
     </div>
 
     <footer>
@@ -540,8 +275,8 @@ Define the CommonClient.nuspec file in the staging directory (this only needs to
 </article>
 <ul class="actions pagination">
     
-        <li><a href="https://stefvardalos.github.io/blog/yo/"
-                class="button big previous">yo</a></li>
+        <li><a href="https://stefvardalos.github.io/blog/yo2/"
+                class="button big previous">yo2</a></li>
     
 
     
@@ -554,9 +289,9 @@ Define the CommonClient.nuspec file in the staging directory (this only needs to
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'shortname';
-    var disqus_identifier = 'https:\/\/stefvardalos.github.io\/blog\/commonclientguide\/';
-    var disqus_title = 'Electron Application';
-    var disqus_url = 'https:\/\/stefvardalos.github.io\/blog\/commonclientguide\/';
+    var disqus_identifier = 'https:\/\/stefvardalos.github.io\/blog\/yo\/';
+    var disqus_title = 'yo';
+    var disqus_url = 'https:\/\/stefvardalos.github.io\/blog\/yo\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -580,31 +315,31 @@ Define the CommonClient.nuspec file in the staging directory (this only needs to
             
 
 
-<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f&text=Electron%20Application&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f&text=yo&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
 
 
-<li><a href="//plus.google.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f" target="_blank" class="share-btn google-plus">
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f" target="_blank" class="share-btn google-plus">
     <i class="fa fa-google-plus"></i>
     <p>Google+</p>
 </a></li>
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f&title=Electron%20Application" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f&title=yo" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f&title=Electron%20Application" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f&title=yo" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
@@ -613,7 +348,7 @@ Define the CommonClient.nuspec file in the staging directory (this only needs to
 
 
 
-<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcommonclientguide%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fyo%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -727,7 +462,7 @@ Define the CommonClient.nuspec file in the staging directory (this only needs to
                     <li>
                         <article>
                             <header>
-                                <h3><a href="https://stefvardalos.github.io/blog/commonclientguide/">Electron Application</a></h3>
+                                <h3><a href="https://stefvardalos.github.io/blog/yo/">yo</a></h3>
                                 
                                     
                                 
@@ -741,7 +476,7 @@ Define the CommonClient.nuspec file in the staging directory (this only needs to
                     <li>
                         <article>
                             <header>
-                                <h3><a href="https://stefvardalos.github.io/blog/yo/">yo</a></h3>
+                                <h3><a href="https://stefvardalos.github.io/blog/yo2/">yo2</a></h3>
                                 
                                     
                                 

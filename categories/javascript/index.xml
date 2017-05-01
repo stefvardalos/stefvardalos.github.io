@@ -6,7 +6,7 @@
     <description>Recent content in Javascript on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 May 2017 18:54:16 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 01 May 2017 10:54:16 +0300</lastBuildDate>
     
 	<atom:link href="https://stefvardalos.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>firstpost</title>
       <link>https://stefvardalos.github.io/blog/firstpost/</link>
-      <pubDate>Mon, 01 May 2017 18:54:16 +0300</pubDate>
+      <pubDate>Mon, 01 May 2017 10:54:16 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/blog/firstpost/</guid>
       <description>Angular JS Project This is a basic boilerplate to kickstart your next Angular 1.x project, along with some useful tools.
@@ -24,7 +24,7 @@ Includes  Basic Node.JS server Angular App Folder Structure Widely Used Dependen
     <item>
       <title>test</title>
       <link>https://stefvardalos.github.io/blog/test/</link>
-      <pubDate>Mon, 01 May 2017 18:54:16 +0300</pubDate>
+      <pubDate>Mon, 01 May 2017 10:54:16 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/blog/test/</guid>
       <description>Angular JS Project This is a basic boilerplate to kickstart your next Angular 1.x project, along with some useful tools.

@@ -1,0 +1,831 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>test</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.20.6" />
+        
+
+
+        
+            <meta name="author" content="Stefanos Vardalos">
+        
+        
+            
+                <meta name="description" content="Personal Website for Stefanos Vardalos">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="test"/>
+<meta name="twitter:title" content="test"/>
+<meta name="twitter:description" content="Angular JS Project This is a basic boilerplate to kickstart your next Angular 1.x project, along with some useful tools.
+Includes  Basic Node.JS server Angular App Folder Structure Widely Used Dependencies  angular-ui-bootstrap angular-ui-router bootstrap font-awesome  Widely Used Developer Dependencies  dgeni eslint gulp jasmine-core karma  Unit Testing Suite ( Karma and Jasmine ) Coverage Tool Linter Tool ( EsLint ) Documentation Generator ( Dgeni )  Installation Prerequisites  Install Node."/>
+
+
+        <meta property="og:title" content="test" />
+<meta property="og:description" content="Angular JS Project This is a basic boilerplate to kickstart your next Angular 1.x project, along with some useful tools.
+Includes  Basic Node.JS server Angular App Folder Structure Widely Used Dependencies  angular-ui-bootstrap angular-ui-router bootstrap font-awesome  Widely Used Developer Dependencies  dgeni eslint gulp jasmine-core karma  Unit Testing Suite ( Karma and Jasmine ) Coverage Tool Linter Tool ( EsLint ) Documentation Generator ( Dgeni )  Installation Prerequisites  Install Node." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://stefvardalos.github.io/blog/test/" />
+
+
+
+<meta property="article:published_time" content="2017-05-01T18:54:16&#43;03:00"/>
+<meta property="article:modified_time" content="2017-05-01T18:54:16&#43;03:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="test">
+<meta itemprop="description" content="Angular JS Project This is a basic boilerplate to kickstart your next Angular 1.x project, along with some useful tools.
+Includes  Basic Node.JS server Angular App Folder Structure Widely Used Dependencies  angular-ui-bootstrap angular-ui-router bootstrap font-awesome  Widely Used Developer Dependencies  dgeni eslint gulp jasmine-core karma  Unit Testing Suite ( Karma and Jasmine ) Coverage Tool Linter Tool ( EsLint ) Documentation Generator ( Dgeni )  Installation Prerequisites  Install Node.">
+
+
+<meta itemprop="dateModified" content="2017-05-01T18:54:16&#43;03:00" />
+<meta itemprop="wordCount" content="593">
+
+
+
+<meta itemprop="keywords" content="Javascript,angular,test," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+            <link rel="stylesheet" href="/libs/font-mfizz-2.4.1/font-mfizz.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">Stefanos Vardalos</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        
+                            <i class="fa fa-user">&nbsp;</i>About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                    <i class="fa fa-user">&nbsp;</i>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="https://stefvardalos.github.io/blog/commonclientguide/"><p>Electron Application</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="https://stefvardalos.github.io/blog/yo/"><p>yo</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>If you <i class="fa fa-heart" aria-hidden="true"></i> what you read, feel free to <i class="fa fa-bullhorn" aria-hidden="true"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f&text=test&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f&title=test" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f&title=test" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+
+
+
+<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="https://stefvardalos.github.io/blog/test/">test</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-05-01'>
+            May 1, 2017</time>
+        <span class="author">Stefanos Vardalos</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f&text=test&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f&title=test" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f&title=test" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+
+
+
+<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2ftest%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+
+    <div id="content">
+        
+
+<h1 id="angular-js-project">Angular JS Project</h1>
+
+<p>This is a basic boilerplate to kickstart your next Angular 1.x project, along with some useful tools.</p>
+
+<hr />
+
+<h2 id="includes">Includes</h2>
+
+<ul>
+<li>Basic Node.JS server</li>
+<li>Angular App Folder Structure</li>
+<li>Widely Used Dependencies
+
+<ul>
+<li><a href="https://angular-ui.github.io/bootstrap/">angular-ui-bootstrap</a></li>
+<li><a href="https://ui-router.github.io/">angular-ui-router</a></li>
+<li><a href="http://getbootstrap.com/">bootstrap</a></li>
+<li><a href="http://fontawesome.io/">font-awesome</a></li>
+</ul></li>
+<li>Widely Used Developer Dependencies
+
+<ul>
+<li><a href="https://github.com/angular/dgeni">dgeni</a></li>
+<li><a href="http://eslint.org/">eslint</a></li>
+<li><a href="http://gulpjs.com/">gulp</a></li>
+<li><a href="https://jasmine.github.io/">jasmine-core</a></li>
+<li><a href="https://karma-runner.github.io">karma</a></li>
+</ul></li>
+<li>Unit Testing Suite ( Karma and Jasmine )</li>
+<li>Coverage Tool</li>
+<li>Linter Tool ( EsLint )</li>
+<li>Documentation Generator ( Dgeni )</li>
+</ul>
+
+<hr />
+
+<h2 id="installation">Installation</h2>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<ol>
+<li>Install Node.JS through <a href="https://nodejs.org/en/download/">official site</a>  or (better) <a href="https://github.com/creationix/nvm">nvm</a></li>
+<li>Install/Update npm
+<code>
+npm install npm@latest -g
+</code></li>
+</ol>
+
+<hr />
+
+<h3 id="project-scaffold">Project scaffold</h3>
+
+<pre><code>git clone angular
+cd angular
+npm install
+</code></pre>
+
+<hr />
+
+<h2 id="structure">Structure</h2>
+
+<ul>
+<li>app
+
+<ul>
+<li>app.js</li>
+<li>common</li>
+<li>feature
+
+<ul>
+<li>featureController.js</li>
+<li>featureController.spec.js</li>
+<li>featureService.js</li>
+<li>featureService.spec.js</li>
+<li>featureView.html</li>
+</ul></li>
+</ul></li>
+<li>assets
+
+<ul>
+<li>css</li>
+<li>img</li>
+</ul></li>
+<li>coverage</li>
+<li>docs
+
+<ul>
+<li>app</li>
+<li>build</li>
+<li>config</li>
+<li>content</li>
+</ul></li>
+<li>server.js</li>
+<li>package.json</li>
+<li>karma.conf.js</li>
+<li>gulpfile.js</li>
+<li>.eslintrc.json</li>
+<li>.gitignore</li>
+<li>.eslintignore</li>
+<li>index.html</li>
+</ul>
+
+<hr />
+
+<h3 id="explanation">Explanation</h3>
+
+<ul>
+<li><p><strong>app</strong> folder holds all the app files.
+<em>app.js</em> file is our main module which will load all the app
+its feature will be developed in its own folder, separated into a controller, a service, a view and, their tests.
+common folder holds files (views, services, etc) that ought to be used from many features</p></li>
+
+<li><p><strong>assets</strong> folder holds static asset files like images and css.</p></li>
+
+<li><p><strong>coverage</strong> folder holds the report of the coverage tool, navigating to the report folder from a browser will show a view of the test coverage.</p></li>
+
+<li><p><strong>docs</strong> folder holds all the files for the documentation generation procedure. Inside <strong>config</strong> folder are the processors that create the documentation and the templates that bind them. <strong>build</strong> folder holds the pre-processed files that holds the logic behind the generation. <strong>app</strong> folder holds the final app which is the generated documentation in which, a server must be started so that it will be accessible from a web browser.</p></li>
+
+<li><p><em>server.js</em> is the file that creates our simple Node.JS server</p></li>
+
+<li><p><em>package.json</em> holds all are npm-based scripts and depend</p></li>
+
+<li><p><em>karma.conf.js</em> holds our karma configuration for test</p></li>
+
+<li><p><em>gulpfile.js</em> holds our gulp tasks that create the documentation</p></li>
+
+<li><p><em>.eslintrc.json</em> holds our configuration for the linter tool</p></li>
+
+<li><p><em>.gitignore</em> holds the rules for the files that we want to exclude from git</p></li>
+
+<li><p><em>.eslintignore</em> holds the rules for the files that we want to exclude from the linter tool</p></li>
+</ul>
+
+<hr />
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="project-start">Project start</h3>
+
+<pre><code>node start
+</code></pre>
+
+<p>Running the above command, you should see a response like that in your shell :
+<em>Express server listening on port 3000</em>
+Now you can navigate with a browser to <a href="http://localhost:3000">http://localhost:3000</a> and see your app running</p>
+
+<hr />
+
+<h3 id="test-coverage-start">Test &amp; Coverage start</h3>
+
+<pre><code>npm run test
+</code></pre>
+
+<p>Running the above command, you should see a response like that in your shell :
+<img src="test.png" alt="test" />
+After that your tests will run and you will see which were successful and which not. After all the tests have run, you should see a response like that in your shell :
+<img src="coverage.png" alt="coverage" />
+There you can see a representation of the test coverage right in your shell (you can also navigate to the appropriate url to see the same info in a web-based form)</p>
+
+<hr />
+
+<h3 id="linter-start">Linter start</h3>
+
+<pre><code>npm run lint
+</code></pre>
+
+<p>Running the above command, you will see the results of your linter. If your code follows all your linter rules, there will be no further output, if not, you should see something like this.
+<img src="linter.png" alt="linter" /></p>
+
+<hr />
+
+<h3 id="documentation-start">Documentation start</h3>
+
+<pre><code>npm run doc
+</code></pre>
+
+<p>Running the above command, you will see the gulp  tasks running which execute the dgeni configuration using your processors. After the whole process is done we can navigate to the output folder and create a server, so that we will be able to navigate to our documentation</p>
+
+<pre><code>cd docs/app
+lite-server start
+</code></pre>
+
+<p>After that you should see an output like that in your shell.
+<img src="documentation.png" alt="documentation" />
+Navigating to the above urls you will be able to see your generated documentation.</p>
+
+<hr />
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/test'>test</a></li>
+    
+        <li><a href='/categories/angular'>angular</a></li>
+    
+        <li><a href='/categories/javascript'>Javascript</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="https://stefvardalos.github.io/blog/yo2/"
+                class="button big previous">yo2</a></li>
+    
+
+    
+        <li><a href="https://stefvardalos.github.io/blog/firstpost/"
+                class="button big next">firstpost</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'shortname';
+    var disqus_identifier = 'https:\/\/stefvardalos.github.io\/blog\/test\/';
+    var disqus_title = 'test';
+    var disqus_url = 'https:\/\/stefvardalos.github.io\/blog\/test\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <img src="/img/main/profile.jpg" class="intro-circle" width="40%" alt="StefanosVardalos" />
+                
+            
+            
+                <header>
+                    <h2>Stefanos Vardalos</h2>
+                    <p>I'm a software engineer <i class="fa fa-desktop" aria-hidden="true"></i>, a geek <i class="fa fa-gamepad" aria-hidden="true"></i>, a moviegoer <i class="fa fa-film" aria-hidden="true"></i>, a music lover <i class="fa fa-headphones" aria-hidden="true"></i>, a book reader <i class="fa fa-book" aria-hidden="true"></i>.</p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/stefvardalos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/stefanos-vardalos-0b4a1745" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:stefvardalos@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="https://stefvardalos.github.io/blog/commonclientguide/">Electron Application</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-05-01'>
+                                    May 1, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="https://stefvardalos.github.io/blog/yo/">yo</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-05-01'>
+                                    May 1, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript/">Javascript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/angular/">angular</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/test/">test</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>I am a FullStack Developer, living in Greece. I studied Automation Engineering and I got a Master at Advanced Information Systems.</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Stefanos Vardalos. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

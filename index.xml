@@ -6,67 +6,29 @@
     <description>Recent content on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 May 2017 19:08:01 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jul 2017 18:54:16 +0300</lastBuildDate>
     
 	<atom:link href="https://stefvardalos.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>yo</title>
-      <link>https://stefvardalos.github.io/blog/yo/</link>
-      <pubDate>Mon, 01 May 2017 19:08:01 +0300</pubDate>
+      <title>CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2&#43;</title>
+      <link>https://stefvardalos.github.io/blog/css-angular/</link>
+      <pubDate>Tue, 18 Jul 2017 18:54:16 +0300</pubDate>
       
-      <guid>https://stefvardalos.github.io/blog/yo/</guid>
-      <description></description>
+      <guid>https://stefvardalos.github.io/blog/css-angular/</guid>
+      <description>CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2+ While working on a project with Angular 4, I had to choose a CSS framework to built its layout with. Interestingly enough, CSS frameworks haven&amp;rsquo;t yet moved on to component based architecture with the same speed that JS Frameworks have, but there are some quite good choices to work with.
+Angular Material It is maintained by Angular Team and of course it&amp;rsquo;s their recommendation for a UI solution, but it is in its relative early steps.</description>
     </item>
     
     <item>
-      <title>yo2</title>
-      <link>https://stefvardalos.github.io/blog/yo2/</link>
-      <pubDate>Mon, 01 May 2017 16:22:09 +0300</pubDate>
-      
-      <guid>https://stefvardalos.github.io/blog/yo2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>firstpost</title>
-      <link>https://stefvardalos.github.io/blog/firstpost/</link>
-      <pubDate>Mon, 01 May 2017 10:54:16 +0300</pubDate>
-      
-      <guid>https://stefvardalos.github.io/blog/firstpost/</guid>
-      <description>Angular JS Project This is a basic boilerplate to kickstart your next Angular 1.x project, along with some useful tools.
-Includes  Basic Node.JS server Angular App Folder Structure Widely Used Dependencies  angular-ui-bootstrap angular-ui-router bootstrap font-awesome  Widely Used Developer Dependencies  dgeni eslint gulp jasmine-core karma  Unit Testing Suite ( Karma and Jasmine ) Coverage Tool Linter Tool ( EsLint ) Documentation Generator ( Dgeni )  Installation Prerequisites  Install Node.</description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://stefvardalos.github.io/blog/test/</link>
-      <pubDate>Mon, 01 May 2017 10:54:16 +0300</pubDate>
-      
-      <guid>https://stefvardalos.github.io/blog/test/</guid>
-      <description>Angular JS Project This is a basic boilerplate to kickstart your next Angular 1.x project, along with some useful tools.
-Includes  Basic Node.JS server Angular App Folder Structure Widely Used Dependencies  angular-ui-bootstrap angular-ui-router bootstrap font-awesome  Widely Used Developer Dependencies  dgeni eslint gulp jasmine-core karma  Unit Testing Suite ( Karma and Jasmine ) Coverage Tool Linter Tool ( EsLint ) Documentation Generator ( Dgeni )  Installation Prerequisites  Install Node.</description>
-    </item>
-    
-    <item>
-      <title>about</title>
+      <title>About</title>
       <link>https://stefvardalos.github.io/about/</link>
       <pubDate>Mon, 01 May 2017 10:53:45 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/about/</guid>
       <description>Personal Info Talented and passionate software engineer, with an everlasting hunger to try and learn new things. Love working with a team where I bring my patient and calmness. Capable of integrating out-of-the-box and problem solving thinking in the full cycle of the software development process. Constantly searching new technologies, dedicated to maintaining up-to-date industry knowledge and a continuous professional development.
-Education  MSc of Advanced Computing and Informatics Systems University of Piraeus, Piraeus (Greece) Advanced Technologies for Software Development 2014 – 2016* Master’s Thesis Full Stack JavaScript Development using MEAN Stack Bachelor&amp;rsquo;s Degree of Automation University of Applied Sciences of Piraeus, Department of Automation Engineering, Piraeus (Greece) 2008 - 2013 Bachelor’s Thesis SMStoAuto - Custom made hardware which utilizes feed technologies using PHP, MySQL, Arduino and GSM.</description>
-    </item>
-    
-    <item>
-      <title>Electron Application</title>
-      <link>https://stefvardalos.github.io/blog/commonclientguide/</link>
-      <pubDate>Mon, 01 May 2017 10:08:01 +0300</pubDate>
-      
-      <guid>https://stefvardalos.github.io/blog/commonclientguide/</guid>
-      <description>Electron / Angular JS CommonClient Project This is a basic development guide for the CommonClient Project. It includes stuff about the project structure, the electron modules, the renderer application (with AngularJS library) and every other key factor that should be mentioned (like static code analysis, proper commenting, unit tests, etc). It will be constantly updated along the way through the development process.
-Installation Prerequisites  Install Node.JS through official site or (better) nvm Install/Update npm  npm install npm@latest -g   Project install git clone commonClient_gitURL cd osbiz_desktop npm install cd app npm install cd .</description>
+Education  MSc of Advanced Computing and Informatics Systems University of Piraeus, Piraeus (Greece) Advanced Technologies for Software Development 2014 – 2016 Master’s Thesis Full Stack JavaScript Development using MEAN Stack Bachelor&amp;rsquo;s Degree of Automation University of Applied Sciences of Piraeus, Department of Automation Engineering, Piraeus (Greece) 2008 - 2013 Bachelor’s Thesis SMStoAuto - Custom made hardware which utilizes feed technologies using PHP, MySQL, Arduino and GSM.</description>
     </item>
     
   </channel>

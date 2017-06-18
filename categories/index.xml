@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 May 2017 10:54:16 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jul 2017 18:54:16 +0300</lastBuildDate>
     
 	<atom:link href="https://stefvardalos.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,27 +14,27 @@
     <item>
       <title>Angular</title>
       <link>https://stefvardalos.github.io/categories/angular/</link>
-      <pubDate>Mon, 01 May 2017 10:54:16 +0300</pubDate>
+      <pubDate>Tue, 18 Jul 2017 18:54:16 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/angular/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Javascript</title>
-      <link>https://stefvardalos.github.io/categories/javascript/</link>
-      <pubDate>Mon, 01 May 2017 10:54:16 +0300</pubDate>
+      <title>Css</title>
+      <link>https://stefvardalos.github.io/categories/css/</link>
+      <pubDate>Tue, 18 Jul 2017 18:54:16 +0300</pubDate>
       
-      <guid>https://stefvardalos.github.io/categories/javascript/</guid>
+      <guid>https://stefvardalos.github.io/categories/css/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Test</title>
-      <link>https://stefvardalos.github.io/categories/test/</link>
-      <pubDate>Mon, 01 May 2017 10:54:16 +0300</pubDate>
+      <title>Javascript</title>
+      <link>https://stefvardalos.github.io/categories/javascript/</link>
+      <pubDate>Tue, 18 Jul 2017 18:54:16 +0300</pubDate>
       
-      <guid>https://stefvardalos.github.io/categories/test/</guid>
+      <guid>https://stefvardalos.github.io/categories/javascript/</guid>
       <description></description>
     </item>
     

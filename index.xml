@@ -6,7 +6,7 @@
     <description>Recent content on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Jul 2017 18:54:16 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jun 2017 18:54:16 +0300</lastBuildDate>
     
 	<atom:link href="https://stefvardalos.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2&#43;</title>
       <link>https://stefvardalos.github.io/blog/css-angular/</link>
-      <pubDate>Tue, 18 Jul 2017 18:54:16 +0300</pubDate>
+      <pubDate>Sun, 18 Jun 2017 18:54:16 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/blog/css-angular/</guid>
       <description>CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2+ While working on a project with Angular 4, I had to choose a CSS framework to built its layout with. Interestingly enough, CSS frameworks haven&amp;rsquo;t yet moved on to component based architecture with the same speed that JS Frameworks have, but there are some quite good choices to work with.
@@ -27,8 +27,8 @@ Angular Material It is maintained by Angular Team and of course it&amp;rsquo;s t
       <pubDate>Mon, 01 May 2017 10:53:45 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/about/</guid>
-      <description>Personal Info Talented and passionate software engineer, with an everlasting hunger to try and learn new things. Love working with a team where I bring my patient and calmness. Capable of integrating out-of-the-box and problem solving thinking in the full cycle of the software development process. Constantly searching new technologies, dedicated to maintaining up-to-date industry knowledge and a continuous professional development.
-Education  MSc of Advanced Computing and Informatics Systems University of Piraeus, Piraeus (Greece) Advanced Technologies for Software Development 2014 – 2016 Master’s Thesis Full Stack JavaScript Development using MEAN Stack Bachelor&amp;rsquo;s Degree of Automation University of Applied Sciences of Piraeus, Department of Automation Engineering, Piraeus (Greece) 2008 - 2013 Bachelor’s Thesis SMStoAuto - Custom made hardware which utilizes feed technologies using PHP, MySQL, Arduino and GSM.</description>
+      <description>Personal Info Passionate software engineer, with an everlasting hunger to try and learn new things. Constantly searching new technologies, dedicated to maintain up-to-date industry knowledge and a continuous professional development. Love technology in general, enjoy good movies, listen to a lot of music and watch tv series almost all day long.
+Education MSc of Advanced Computing and Informatics Systems University of Piraeus, Piraeus (Greece) Advanced Technologies for Software Development 2014 – 2016</description>
     </item>
     
   </channel>

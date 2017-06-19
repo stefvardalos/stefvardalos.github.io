@@ -6,7 +6,7 @@
     <description>Recent content in Blogs on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Jul 2017 18:54:16 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jun 2017 18:54:16 +0300</lastBuildDate>
     
 	<atom:link href="https://stefvardalos.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2&#43;</title>
       <link>https://stefvardalos.github.io/blog/css-angular/</link>
-      <pubDate>Tue, 18 Jul 2017 18:54:16 +0300</pubDate>
+      <pubDate>Sun, 18 Jun 2017 18:54:16 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/blog/css-angular/</guid>
       <description>CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2+ While working on a project with Angular 4, I had to choose a CSS framework to built its layout with. Interestingly enough, CSS frameworks haven&amp;rsquo;t yet moved on to component based architecture with the same speed that JS Frameworks have, but there are some quite good choices to work with.

@@ -30,11 +30,29 @@
     </item>
     
     <item>
+      <title>Debugging</title>
+      <link>https://stefvardalos.github.io/categories/debugging/</link>
+      <pubDate>Thu, 27 Jul 2017 11:20:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/debugging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript</title>
       <link>https://stefvardalos.github.io/categories/javascript/</link>
-      <pubDate>Sun, 18 Jun 2017 18:54:16 +0300</pubDate>
+      <pubDate>Thu, 27 Jul 2017 11:20:00 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logging</title>
+      <link>https://stefvardalos.github.io/categories/logging/</link>
+      <pubDate>Thu, 27 Jul 2017 11:20:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/logging/</guid>
       <description></description>
     </item>
     

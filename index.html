@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.20.6" />
+        <meta name="generator" content="Hugo 0.23" />
         
     
         
@@ -44,7 +44,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-06-18T18:54:16&#43;03:00"/>
+<meta property="og:updated_time" content="2017-07-27T11:20:00&#43;03:00"/>
 
 
 
@@ -182,6 +182,10 @@
 
                 
                     <li>
+                        <a href="https://stefvardalos.github.io/blog/js-logging/"><p>You should have better logging now!</p></a>
+                    </li>
+                
+                    <li>
                         <a href="https://stefvardalos.github.io/blog/css-angular/"><p>CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2&#43;</p></a>
                     </li>
                 
@@ -199,7 +203,7 @@
     <header>
     <div class="title">
         
-            <h2><a href="https://stefvardalos.github.io/blog/css-angular/">CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2&#43;</a></h2>
+            <h2><a href="https://stefvardalos.github.io/blog/js-logging/">You should have better logging now!</a></h2>
         
         
     </div>
@@ -209,11 +213,11 @@
         
 
         <time class="published"
-            datetime='2017-06-18'>
-            June 18, 2017</time>
+            datetime='2017-07-27'>
+            July 27, 2017</time>
         <span class="author">Stefanos Vardalos</span>
         
-            <p>5 minute read</p>
+            <p>4 minute read</p>
         
         
     </div>
@@ -225,7 +229,7 @@
             
 
 
-<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcss-angular%2f&text=CSS%20FRAMEWORK%20TO%20USE%20WITH%20ANGULAR%20VERSION%202%2b&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fjs-logging%2f&text=You%20should%20have%20better%20logging%c2%a0now%21&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
@@ -234,19 +238,19 @@
 
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcss-angular%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fjs-logging%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcss-angular%2f&title=CSS%20FRAMEWORK%20TO%20USE%20WITH%20ANGULAR%20VERSION%202%2b" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fjs-logging%2f&title=You%20should%20have%20better%20logging%c2%a0now%21" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcss-angular%2f&title=CSS%20FRAMEWORK%20TO%20USE%20WITH%20ANGULAR%20VERSION%202%2b" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fjs-logging%2f&title=You%20should%20have%20better%20logging%c2%a0now%21" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
@@ -255,7 +259,7 @@
 
 
 
-<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcss-angular%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fjs-logging%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -267,73 +271,88 @@
     <div id="content">
         
 
-<p><img src="/img/posts/css-angular/code.jpg" alt="CSS Code" /></p>
+<p><img src="/img/posts/js-logging/developer.jpeg" alt="I have no idea what is going on…" title="I have no idea what is going on…" />
+    <div style='text-align:center'><span><em>I have no idea what is going on…</em></span></div></p>
 
-<h1 id="css-framework-to-use-with-angular-version-2">CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2+</h1>
+<h1 id="you-should-have-better-logging-now">You should have better logging now!</h1>
 
-<p>While working on a project with Angular 4, I had to choose a CSS framework to built its layout with.
-Interestingly enough, CSS frameworks haven&rsquo;t yet moved on to component based architecture with the same speed that JS Frameworks have, but there are some quite good choices to work with.</p>
+<p>There is a part of software development that not all developers take very seriously. That part is proper logging and everyone who has lost countless hours during debugging knows exactly what I mean.</p>
 
-<h3 id="angular-material-https-material-angular-io"><a href="https://material.angular.io/">Angular Material</a></h3>
+<p>Useful logs can provide the developer ( especially when someone has to debug/maintain someone else’s code ) with tremendous help when trying to understand what the code actually does. Some developers say that stack trace is all someone should ever need but, that could not be further from the truth. Stack traces are great and can tell you where and what went wrong, but they can’t tell you how you got there in the first place. Surely you can follow execution through break points but, going in blind will make the whole process a lot more time-consuming than it actually should, and could be.</p>
 
-<p>It is maintained by Angular Team and of course it&rsquo;s their recommendation for a UI solution, but it is in its relative early steps.
-It misses a lot of important features and most importantly it doesn’t offer a layout system of its own.
-Although, it is recommended to bundle it with the Flex Layout project, which is maintained also by the Angular Team.
-The separation of those two can be a good thing ( as the Flex Layout can be integrated in other projects, not using Angular Material, too ) but it is something to be taken into account.
-Sooner or later it will catch up to the actual Material Guidelines but as of now it is relatively beta-ish and with an unknown project time frame.</p>
+<p>
 
-<h3 id="bootstrap">Bootstrap</h3>
 
-<p>There is not much to be said about the king of CSS frameworks.
-Bootstrap is widely used and generally liked, offers a lot features and has a huge user base , which adds on its featureset.
-There are currently two big projects on github which are trying to migrate all Bootstrap functionality to Angular&rsquo;s component.
-The first one is the <a href="http://valor-software.com/ngx-bootstrap/#/">ngx-boostrap</a> by the valor-software team and the second one is the <a href="https://ng-bootstrap.github.io/">ng-bootstrap</a> by ng-bootstrap team.
-Valor-Software&rsquo;s library provides widget&rsquo;s in both version 3 and 4 of Bootstrap CSS where the NGX-Bootstrap&rsquo;s library is made entirely with the fourth version of Bootstrap in mind.
-Both teams are quite good, although NGX-Bootstrap has quite a history in the field, as they are responsible for the UI Bootstrap library, which is the best port of Bootstrap for AngularJS.</p>
+    
+    
+        
+        
+        
+            
+        
+        
+            
+        
+    
 
-<h3 id="primeng-https-www-primefaces-org-primeng"><a href="https://www.primefaces.org/primeng/">PrimeNG</a></h3>
+    
+    
+    
 
-<p>This one is basically a port of the famous <a href="https://www.primefaces.org/">PrimeFaces UI</a> suite which basically is one of the best out there for the Java ecosystem.
-PrimeNG provides pretty much every common component and more to help you build a richfull UI.
-It is definitely a complete choice and surely the most professionally built of the list.
-It is under heavy development, although not in beta, as they try to fix any bugs or fulfill improvements.
-The downside of this framework is its pure theming options, as the more eye-catching ones ( like one which follows Material Design Guidelines ) are paid for.
-There are some free ones but they definitely lack of certain appeal.
-As a last note, their documentation isn&rsquo;t always on par with the actual product, but that is something that they are actively trying to fix.</p>
+    
+    
 
-<h3 id="covalent-ui-https-teradata-github-io-covalent"><a href="https://teradata.github.io/covalent/">Covalent UI</a></h3>
 
-<p>Teradata is a Data Management and Analytics company.
-They started developing a UI suite to consume it on their own projects but they also open sourced it and made it a public framework.
-It follows the Material Design and it actually comes with some very helpful layouts that can speed up a lot the development process.
-It has a huge amount of components and maybe the best documentation of all the other options.
-Covalent actually comes in an Electron flavor too, so if your team works on an Electron application can benefit a lot from that.
-If Teradata keeps supporting it and maintain the same amount of work they do on it now, Covalent is gonna become a very serious option, if not the best one.</p>
 
-<h3 id="clarity-https-vmware-github-io-clarity"><a href="https://vmware.github.io/clarity/">Clarity</a></h3>
 
-<p>Last, but definitely not least, option is Clarity.
-This one is promoted as a UX solution, instead of just a CSS framework.
-It was created by the VMware team to be used on their products but they decided to open sourced it and make it public.
-It should be considered something much more than a UI Framework as their vision is to, firstly, provide the proper and unified UX guidelines and secondly, couple those with popular Javascript frameworks and create according libraries.
-Clarity as a project is actually an alternative to Google&rsquo;s Material Guideline although, they want to provide eventually provide the appropriate components for those guidelines.
-As of now, they have made some work on that ( currently working only with Angular Framework, although they have expressed thoughts on developing for React also in the future ) but not all their guidelines have transformed into components.</p>
+    
 
-<h2 id="summary">Summary</h2>
 
-<p>Almost all the options are either still in beta or, under heavy development.
-So, making a choice among those comes with a certain amount of luck or, wishful thinking that its development will keep on the same pace.</p>
+    
 
-<p><img src="/img/posts/css-angular/npmtrends.png" alt="Framework Comparison" title="Framework Comparison" />
-    <div style='text-align:center'><span><em>Downloads in the past 6 Months</em></span></div></p>
+    
+        <p><span class="image center-image">
+            <img src="/img/posts/js-logging//stack-error.png" alt="Not very helpful" />
+        </span></p>
+    
 
-<p>Unfortunately, Angular Material is way behind from the rest in terms of features and production ready state so, its out of the race.
-The same could be said for Clarity project, although this one holds a very big promise and having VMware behind it is definitely something to keep an eye on.
-Now that we have limit our options down to three, the choice should be somewhat easier.
-The Bootstrap library is surely the one with the biggest user base and that should count a lot in a framework selection decision but its spread on different development teams should be alarming ( although the ng-bootstrap seems like the go-to choice ).
-The other two options, PrimeNG and Covalent, are very similar.
-The PrimeNG library provides more features and is backed by a way more experienced ( in the UI field at least ) team but, the Covalent library provides Material integration free and out of the box and it seems like it will soon catch up to its competitor&rsquo;s featureset.
-Right now, PrimeNG seems like the best pick, but the other options are really close and if their teams keep on committing work on them as they do, maybe we will have a more clear winner in this relatively open field.</p>
+
+    <div style='text-align:center'><span><em>Not very helpful</em></span></div></p>
+
+<p>That is the diagnostic part of logging, the most important one and basically the one that developers could understand easier, as it is more part of their daily work routine. There is another part which is called audit logging. Where the diagnostic logging takes care of recording the events that happen during runtime ( method calls, input/outputs, HTTP calls, SQL executions ), the audit logging is responsible for recording more abstract, business logic events. Such events can be user actions (adding/editing/removal of content, transactions, access data) or other things that have either managerial value or, more importantly, legal value.</p>
+
+<p>In the back end world, there have been some great logging frameworks to choose from as the need for those arose a lot earlier. For example in Java, you can take a pick between Java’s own logging engine, java.util.logging or some great external frameworks like Logback or the most popular Log4j.
+In the front end world, things haven’t gotten that far yet, but there are options that can help you do the extra mile ( and of course get rid of trivial console.log messages ). Two such Javascript libraries for the front end are the minimal but powerful loglevel and the browser-bunyan, a port of the awesome node.js logging module for the browser. Some features are common between those frameworks but there are unique ones which should guide the developer to choose which one he needs. The use of those can be shown with some examples.</p>
+
+<hr />
+
+<blockquote>
+<p>Manifesto: Server logs should be structured. JSON’s a good format. Let’s do that.</p>
+</blockquote>
+
+<p>As original <a href="https://github.com/trentm/node-bunyan">Bunyan</a>’s manifesto goes, logs should be structured and easily indexed, filtered, searched. This awesome framework produces logs in JSON format which then can be easily consumed by other services for further processing.</p>
+
+<p><script src="https://gist.github.com/stefvardalos/78094fa472d470e584ec213e6f4d890c.js"></script>
+    <div style='text-align:center'><span><em>Bunyan Browser basic example</em></span></div></p>
+
+<p>Apart from the JSON exporting capability, <a href="https://github.com/philmander/browser-bunyan">Bunyan</a> has the concept of child loggers, which can be used to create different loggers for different components of the application. That gives great flexibility as to what fields and extra info you want to include in specific parts of your application only. Bunyan also incorporates streams, which are the ‘output’ settings of its loggers. You can create multiple streams and assign one ore more to each logger and each stream can have different settings like the minimum level of logs to record ( acceptable levels of Bunyan are fatal/error/warn/info/debug/trace ) or output method ( in the browser there are only console related options but, in a Node environment you can do other things like write logs to a specific file ).</p>
+
+<hr />
+
+<blockquote>
+<p>This is a barebones reliable everyday logging library. It does not do fancy things, it does not let you reconfigure appenders or add complex log filtering rules or boil tea (more’s the pity), but it does have the all core functionality that you actually use</p>
+</blockquote>
+
+<p>With quite a modest statement, <a href="https://github.com/pimterry/loglevel">loglevel</a> presents itself a minimal logging framework that adds just the bare minimum that most applications need. It adds some proper level-based logging ( trace/debug/info/warn/error ) and filtering as to what is the minimum level to be displayed on the console.</p>
+
+<p><script src="https://gist.github.com/stefvardalos/03a1a177d16e135e861a5557fbe25ba1.js"></script>
+    <div style='text-align:center'><span><em>loglevel basic example</em></span></div></p>
+
+<p>The power of this framework is its simplicity, as it is dead easy to incorporate it into your project and start using it, replacing the console.log() for ever. Furthermore, loglevel has one more hidden gem, its extensibility, as there are various plugins written for it, that provide extra features for those who want them, like <a href="https://github.com/kutuluk/loglevel-plugin-prefix">prefixing messages</a>.</p>
+
+<hr />
+
+<p>Whichever framework you chose in the end for your JavaScript Application, you will save for sure a lot of hours of work during debugging and will make your application more future-proof.</p>
 
     </div>
 
@@ -359,9 +378,9 @@ Right now, PrimeNG seems like the best pick, but the other options are really cl
 
     
     
-        <li><a href='/categories/css'>CSS</a></li>
+        <li><a href='/categories/debugging'>Debugging</a></li>
     
-        <li><a href='/categories/angular'>Angular</a></li>
+        <li><a href='/categories/logging'>Logging</a></li>
     
         <li><a href='/categories/javascript'>Javascript</a></li>
     
@@ -370,6 +389,9 @@ Right now, PrimeNG seems like the best pick, but the other options are really cl
     </footer>
 </article>
 <ul class="actions pagination">
+    
+        <li><a href="https://stefvardalos.github.io/blog/css-angular/"
+                class="button big previous">CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2&#43;</a></li>
     
 
     
@@ -382,9 +404,9 @@ Right now, PrimeNG seems like the best pick, but the other options are really cl
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'shortname';
-    var disqus_identifier = 'https:\/\/stefvardalos.github.io\/blog\/css-angular\/';
-    var disqus_title = 'CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2\x2b';
-    var disqus_url = 'https:\/\/stefvardalos.github.io\/blog\/css-angular\/';
+    var disqus_identifier = 'https:\/\/stefvardalos.github.io\/blog\/js-logging\/';
+    var disqus_title = 'You should have better logging now!';
+    var disqus_url = 'https:\/\/stefvardalos.github.io\/blog\/js-logging\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -408,7 +430,7 @@ Right now, PrimeNG seems like the best pick, but the other options are really cl
             
 
 
-<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcss-angular%2f&text=CSS%20FRAMEWORK%20TO%20USE%20WITH%20ANGULAR%20VERSION%202%2b&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fjs-logging%2f&text=You%20should%20have%20better%20logging%c2%a0now%21&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
@@ -417,19 +439,19 @@ Right now, PrimeNG seems like the best pick, but the other options are really cl
 
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcss-angular%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fjs-logging%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcss-angular%2f&title=CSS%20FRAMEWORK%20TO%20USE%20WITH%20ANGULAR%20VERSION%202%2b" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fjs-logging%2f&title=You%20should%20have%20better%20logging%c2%a0now%21" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcss-angular%2f&title=CSS%20FRAMEWORK%20TO%20USE%20WITH%20ANGULAR%20VERSION%202%2b" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fjs-logging%2f&title=You%20should%20have%20better%20logging%c2%a0now%21" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
@@ -438,7 +460,7 @@ Right now, PrimeNG seems like the best pick, but the other options are really cl
 
 
 
-<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcss-angular%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fjs-logging%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -552,6 +574,20 @@ Right now, PrimeNG seems like the best pick, but the other options are really cl
                     <li>
                         <article>
                             <header>
+                                <h3><a href="https://stefvardalos.github.io/blog/js-logging/">You should have better logging now!</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-07-27'>
+                                    July 27, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <h3><a href="https://stefvardalos.github.io/blog/css-angular/">CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2&#43;</a></h3>
                                 
                                     
@@ -564,6 +600,16 @@ Right now, PrimeNG seems like the best pick, but the other options are really cl
                     </li>
                 
 
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
                 
             </ul>
         </section>
@@ -586,6 +632,15 @@ Right now, PrimeNG seems like the best pick, but the other options are really cl
                     <li>
                         <article>
                             <header>
+                                <a href="/categories/javascript/">Javascript</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="/categories/angular/">Angular</a>
                                 <span style="float:right;">1</span>
                             </header>
@@ -604,7 +659,16 @@ Right now, PrimeNG seems like the best pick, but the other options are really cl
                     <li>
                         <article>
                             <header>
-                                <a href="/categories/javascript/">Javascript</a>
+                                <a href="/categories/debugging/">Debugging</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/logging/">Logging</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>

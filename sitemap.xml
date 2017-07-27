@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://stefvardalos.github.io/blog/js-logging/</loc>
+    <lastmod>2017-07-27T11:20:00+03:00</lastmod>
+  </url>
   
   <url>
     <loc>https://stefvardalos.github.io/blog/css-angular/</loc>
@@ -19,7 +25,7 @@
   
   <url>
     <loc>https://stefvardalos.github.io/blog/</loc>
-    <lastmod>2017-06-18T18:54:16+03:00</lastmod>
+    <lastmod>2017-07-27T11:20:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,14 +42,26 @@
   </url>
   
   <url>
+    <loc>https://stefvardalos.github.io/categories/debugging/</loc>
+    <lastmod>2017-07-27T11:20:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stefvardalos.github.io/categories/javascript/</loc>
-    <lastmod>2017-06-18T18:54:16+03:00</lastmod>
+    <lastmod>2017-07-27T11:20:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/categories/logging/</loc>
+    <lastmod>2017-07-27T11:20:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://stefvardalos.github.io/</loc>
-    <lastmod>2017-06-18T18:54:16+03:00</lastmod>
+    <lastmod>2017-07-27T11:20:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   

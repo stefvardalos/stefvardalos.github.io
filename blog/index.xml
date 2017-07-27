@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jun 2017 18:54:16 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jul 2017 11:20:00 +0300</lastBuildDate>
     
 	<atom:link href="https://stefvardalos.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>You should have better logging now!</title>
+      <link>https://stefvardalos.github.io/blog/js-logging/</link>
+      <pubDate>Thu, 27 Jul 2017 11:20:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/blog/js-logging/</guid>
+      <description>I have no idea what is going on…
+You should have better logging now! There is a part of software development that not all developers take very seriously. That part is proper logging and everyone who has lost countless hours during debugging knows exactly what I mean.
+Useful logs can provide the developer ( especially when someone has to debug/maintain someone else’s code ) with tremendous help when trying to understand what the code actually does.</description>
+    </item>
     
     <item>
       <title>CSS FRAMEWORK TO USE WITH ANGULAR VERSION 2&#43;</title>

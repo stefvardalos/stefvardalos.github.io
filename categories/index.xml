@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Blog</title>
+      <link>https://stefvardalos.github.io/categories/blog/</link>
+      <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CSS</title>
       <link>https://stefvardalos.github.io/categories/css/</link>
       <pubDate>Sun, 18 Jun 2017 18:54:16 +0300</pubDate>
@@ -39,9 +48,27 @@
     </item>
     
     <item>
+      <title>Generators</title>
+      <link>https://stefvardalos.github.io/categories/generators/</link>
+      <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/generators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://stefvardalos.github.io/categories/html/</link>
+      <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript</title>
       <link>https://stefvardalos.github.io/categories/javascript/</link>
-      <pubDate>Thu, 27 Jul 2017 11:20:00 +0300</pubDate>
+      <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/javascript/</guid>
       <description></description>
@@ -53,6 +80,15 @@
       <pubDate>Thu, 27 Jul 2017 11:20:00 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/logging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React.js</title>
+      <link>https://stefvardalos.github.io/categories/react.js/</link>
+      <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/react.js/</guid>
       <description></description>
     </item>
     

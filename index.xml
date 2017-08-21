@@ -6,10 +6,19 @@
     <description>Recent content on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jul 2017 11:20:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 21 Aug 2017 12:15:16 +0300</lastBuildDate>
     
 	<atom:link href="https://stefvardalos.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Static sites are BACK!</title>
+      <link>https://stefvardalos.github.io/blog/static-site-generators/</link>
+      <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/blog/static-site-generators/</guid>
+      <description>Static sites are BACK! Way back in the day, web pages were just static sites, with only HTML and CSS (and later some JavaScript maybe). Just try to remember what that actually means. There were no server code or database, there was only an .html file hosted somewhere that your browser downloaded and displayed to you. Their development was done in the text files directly or, oh god, through programs like the notorious Dreamweaver.</description>
+    </item>
     
     <item>
       <title>You should have better logging now!</title>

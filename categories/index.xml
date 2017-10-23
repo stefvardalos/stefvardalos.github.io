@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jun 2017 18:54:16 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 23 Oct 2017 10:30:00 +0300</lastBuildDate>
     
 	<atom:link href="https://stefvardalos.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Android</title>
+      <link>https://stefvardalos.github.io/categories/android/</link>
+      <pubDate>Mon, 23 Oct 2017 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/android/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Angular</title>
@@ -39,6 +48,15 @@
     </item>
     
     <item>
+      <title>Certification</title>
+      <link>https://stefvardalos.github.io/categories/certification/</link>
+      <pubDate>Mon, 23 Oct 2017 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/certification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Debugging</title>
       <link>https://stefvardalos.github.io/categories/debugging/</link>
       <pubDate>Thu, 27 Jul 2017 11:20:00 +0300</pubDate>
@@ -57,11 +75,29 @@
     </item>
     
     <item>
+      <title>Google</title>
+      <link>https://stefvardalos.github.io/categories/google/</link>
+      <pubDate>Mon, 23 Oct 2017 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>HTML</title>
       <link>https://stefvardalos.github.io/categories/html/</link>
       <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://stefvardalos.github.io/categories/java/</link>
+      <pubDate>Mon, 23 Oct 2017 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/java/</guid>
       <description></description>
     </item>
     
@@ -89,6 +125,15 @@
       <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/react.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Udacity</title>
+      <link>https://stefvardalos.github.io/categories/udacity/</link>
+      <pubDate>Mon, 23 Oct 2017 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/udacity/</guid>
       <description></description>
     </item>
     

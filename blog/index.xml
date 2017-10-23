@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Aug 2017 12:15:16 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 23 Oct 2017 10:30:00 +0300</lastBuildDate>
     
 	<atom:link href="https://stefvardalos.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Becoming Associate Android Developer, Certified by Google!</title>
+      <link>https://stefvardalos.github.io/blog/androidcertified/</link>
+      <pubDate>Mon, 23 Oct 2017 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/blog/androidcertified/</guid>
+      <description>Becoming Associate Android Developer, Certified by Google! If you already work with Android Development or you just want to start your journey on mobile development, there is a way to certify your skills and make yourself stand out. Google has introduced the Associate Android Developer Certification back at 2016 and in their words, their aim was to close the gap between developers launching their careers and employers.
+By passing this exam and earning the Associate Android Developer Certification, the candidate will be able to demonstrate tested knowledge of Android Development and ability to perform general development tasks.</description>
+    </item>
     
     <item>
       <title>Static sites are BACK!</title>

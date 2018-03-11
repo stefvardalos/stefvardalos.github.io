@@ -66,6 +66,15 @@
     </item>
     
     <item>
+      <title>DevOps</title>
+      <link>https://stefvardalos.github.io/categories/devops/</link>
+      <pubDate>Sun, 11 Mar 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generators</title>
       <link>https://stefvardalos.github.io/categories/generators/</link>
       <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
@@ -111,6 +120,15 @@
     </item>
     
     <item>
+      <title>Load</title>
+      <link>https://stefvardalos.github.io/categories/load/</link>
+      <pubDate>Sun, 11 Mar 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/load/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Logging</title>
       <link>https://stefvardalos.github.io/categories/logging/</link>
       <pubDate>Thu, 27 Jul 2017 11:20:00 +0300</pubDate>
@@ -120,11 +138,38 @@
     </item>
     
     <item>
+      <title>Nginx</title>
+      <link>https://stefvardalos.github.io/categories/nginx/</link>
+      <pubDate>Sun, 11 Mar 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proxy</title>
+      <link>https://stefvardalos.github.io/categories/proxy/</link>
+      <pubDate>Sun, 11 Mar 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/proxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>React.js</title>
       <link>https://stefvardalos.github.io/categories/react.js/</link>
       <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/react.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>https://stefvardalos.github.io/categories/server/</link>
+      <pubDate>Sun, 11 Mar 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/server/</guid>
       <description></description>
     </item>
     

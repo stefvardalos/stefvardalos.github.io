@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.23" />
+        <meta name="generator" content="Hugo 0.20.6" />
         
     
         
@@ -44,7 +44,7 @@
 
 
 
-<meta property="og:updated_time" content="2017-10-23T10:30:00&#43;03:00"/>
+<meta property="og:updated_time" content="2018-03-11T10:30:00&#43;03:00"/>
 
 
 
@@ -182,11 +182,11 @@
 
                 
                     <li>
-                        <a href="https://stefvardalos.github.io/blog/androidcertified/"><p>Becoming Associate Android Developer, Certified by Google!</p></a>
+                        <a href="https://stefvardalos.github.io/blog/nginx/"><p>Serving your application using Nginx</p></a>
                     </li>
                 
                     <li>
-                        <a href="https://stefvardalos.github.io/blog/static-site-generators/"><p>Static sites are BACK!</p></a>
+                        <a href="https://stefvardalos.github.io/blog/androidcertified/"><p>Becoming Associate Android Developer, Certified by Google!</p></a>
                     </li>
                 
             </ul>
@@ -203,7 +203,7 @@
     <header>
     <div class="title">
         
-            <h2><a href="https://stefvardalos.github.io/blog/androidcertified/">Becoming Associate Android Developer, Certified by Google!</a></h2>
+            <h2><a href="https://stefvardalos.github.io/blog/nginx/">Serving your application using Nginx</a></h2>
         
         
     </div>
@@ -213,11 +213,11 @@
         
 
         <time class="published"
-            datetime='2017-10-23'>
-            October 23, 2017</time>
+            datetime='2018-03-11'>
+            March 11, 2018</time>
         <span class="author">Stefanos Vardalos</span>
         
-            <p>8 minute read</p>
+            <p>6 minute read</p>
         
         
     </div>
@@ -229,7 +229,7 @@
             
 
 
-<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fandroidcertified%2f&text=Becoming%20Associate%20Android%20Developer%2c%20Certified%20by%20Google%21&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&text=Serving%20your%20application%20using%20Nginx&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
@@ -238,19 +238,19 @@
 
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fandroidcertified%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fandroidcertified%2f&title=Becoming%20Associate%20Android%20Developer%2c%20Certified%20by%20Google%21" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&title=Serving%20your%20application%20using%20Nginx" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fandroidcertified%2f&title=Becoming%20Associate%20Android%20Developer%2c%20Certified%20by%20Google%21" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&title=Serving%20your%20application%20using%20Nginx" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
@@ -259,7 +259,7 @@
 
 
 
-<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fandroidcertified%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -271,104 +271,172 @@
     <div id="content">
         
 
-<p><img src="/img/posts/android-certificate/android_at_univercity.png" alt="Certification Exam" /></p>
+<p><img src="/img/posts/nginx/servers.jpg" alt="Server Status" /></p>
 
-<h1 id="becoming-associate-android-developer-certified-by-google">Becoming Associate Android Developer, Certified by Google!</h1>
+<h1 id="serving-your-application-using-nginx">Serving your application using Nginx</h1>
 
-<p>If you already work with Android Development or you just want to start your journey on mobile development, there is a way to certify your skills and make yourself stand out. Google has introduced the Associate Android Developer Certification back at 2016 and in their words, their aim was to <em>close the gap between developers launching their careers and employers</em>.</p>
+<p>You have created a web application and now you are searching for the right web server to use to serve it. Your application might consist of multiple static files (HTML , CSS , Javascript etc) and a backend API service or even, multiple webservices . Using Nginx might be the what you are looking for, and there are couple of reasons for that. NGINX can be a powerful web server, using a non-threaded, event-driven architecture that enables him to outperform Apache, but can also do other important things, like load balancing, caching or used as a reverse proxy.</p>
 
-<p>By passing this exam and earning the Associate Android Developer Certification, the candidate will be able to demonstrate tested knowledge of Android Development and ability to perform general development tasks.</p>
+<p>Below we will see some basic steps on how to install NGINX and then how to configure the most important parts of it.</p>
 
-<h2 id="structure-of-the-exam">Structure of the exam</h2>
+<h2 id="basic-installation-architecture">Basic Installation - Architecture</h2>
 
-<p>The exam itself is divided into two steps. The first step is a practical exam, where you will get a random project where there will be some new features for you to implement, missing functionalities on existing features for you to add and of course, various bugs to fix. Lastly, there will also be some testing to be done. From the point that you will get the project, you will have 24 hours in front of you to finish everything and then upload your solution in a compressed format file for them to review. The time limit is just enough, if you are somewhat comfortable with that kind of tasks and if you have no other obligations during this time frame, so it is wise to schedule this during a weekend.</p>
+<p>There are two ways to install NGINX, either using a pre-built binary or building it up from source. The first is obviously the easiest and faster option, but the second one gives the ability to choose and include various third-party modules that make NGINX even more powerful and customized to fit your needs. Based on the needs of the application, you might gain a lot from building up your own binary.</p>
 
-<p>The second step is an exit interview. After you successfully pass the practical exam, you will have to arrange an exit interview where you will have to provide some short of identity proof, like an ID or a passport, and then explain your work on the project, discuss the hardest parts to implement etc. Then, the interviewer will ask you some questions regarding general Android Development stuff, which you might have stumbled upon during your work on the project or, maybe not.</p>
+<p>To install a Prebuilt Debian Package you only have to do :</p>
 
-<p>Once both the practical exam and the exit interview are finished, you will get your final result within couple of weeks and shortly after that, your digital badge that you can use to show that you have actually been certified.</p>
+<pre><code>sudo apt-get update
+sudo apt-get install nginx
+</code></pre>
 
-<h2 id="what-you-should-learn-before-you-take-the-exam">What you should learn before you take the exam</h2>
+<p>After the installation process has finished, you can verify everything is ok by running the below command, which should print the latest version of nginx :</p>
 
-<p><img src="/img/posts/android-certificate/pc_study.png" alt="Exam Study" />
-<div style='text-align:center'><span><em>Ready to start</em></span></div></p>
+<pre><code>sudo nginx -v
+nginx version: nginx/1.6.2
+</code></pre>
 
-<p>You can find the content of the exam in the corresponding part of this <a href="https://developers.google.com/training/certification/associate-android-developer/">page</a>. One should have clear knowledge on each of these parts before he attempts to take the exam as, most of them will be tested one way or another through the practical part of the certification.</p>
+<p>After all is finished, your new webserver will be installed under <strong>/etc/nginx/</strong> . If you go inside this folder you will see several files and folders, the most important ones that will require our attention later is the file <em>nginx.conf</em> and the folder <em>sites-available</em>.</p>
 
-<p>In short, you should be somewhat comfortable with the below aspects of Android Programming:</p>
+<h2 id="configuration-settings">Configuration Settings</h2>
 
-<ol>
-<li><strong>Application Components</strong> :
-Understand Activities and Fragments and their life-cycle&rsquo;s. Use of data loaders, creating notifications, using async tasks and background services.</li>
-<li><strong>Data Storage</strong> :
-Being able to create and query a SQLite database as well as be able to use content providers and shared preferences.</li>
-<li><strong>Application UI &amp; UX</strong> :
-Construct layouts using XML and interact with them through Java code, either using the provided UI elements or creating custom views of your own. Implement and work with RecyclerView&rsquo;s, add accessibility features and localize your UI to different languages.</li>
-<li><strong>Debugging and Testing</strong> :
-Analyze crashes and read logs, find bugs and errors. Test your application writing your own unit tests with Espresso Testing Framework.</li>
-</ol>
+<p>The core settings on NGINX are in the nginx.conf file, which by default should look like this.</p>
 
-<p>If you feel you have enough expertise on those four aspects, then you are good to go and try the exam. The enrollment goes through the above website and after you pay the exam fee (currently $149 USD) you will be able to download the project and start the whole procedure whenever you want, so do that when you feel most comfortable with time.</p>
+<pre><code>user www-data;
+worker_processes 4;
+pid /run/nginx.pid;
 
-<h2 id="preparing-for-the-exam">Preparing for the exam</h2>
+events {
+	worker_connections 768;
+	# multi_accept on;
+}
 
-<p>Since the exam contents are so gracefully outlined and you know beforehand what you have to study to excel on it, it is easy to find a lot of sources to acquire the required knowledge. Depending on your liking there are many books or web sources that teach Android quite well and depending on your current level, you can reach the required level in relatively short time ( two or three months of study should be enough for someone without much prior practice on Android ).</p>
+http {
 
-<p>Apart from these options, Google has partnered with Udacity to offer a dedicated program, the Associate Android Developer Fast Track, that will teach someone more than enough to pass this exam. The program currently costs $750 USD (including the exam fee) and gives access to three courses, with a corresponding project on each one, which the user should finish withing 3 months from the time of the enrollment. Having passed all three projects, you would have acquired enough knowledge to create your own simple applications and take the Associate Android Developer Exam.</p>
+	sendfile on;
+	tcp_nopush on;
+	tcp_nodelay on;
+	keepalive_timeout 65;
+	types_hash_max_size 2048;
+	# server_tokens off;
 
-<h2 id="my-experience">My experience</h2>
+	# server_names_hash_bucket_size 64;
+	# server_name_in_redirect off;
 
-<p>About a year ago, Udacity offered 1000 scholarships for their Associate Android Developer Fast Track program. I was one of the lucky ones that got the scholarship and had the amazing opportunity to participate on this program.
-Before I started this program, I had moderate previous experience on Java and Android Development. I had already published one native Android Application and I had done just enough research to be almost up-to-date with the field. I did not know what to expect and what new could this course offer to me.</p>
+	include /etc/nginx/mime.types;
+	default_type application/octet-stream;
 
-<p>The course is very well structured, with great instructors and really high quality content. I was amazed to find that even though much of the content was already known to me, I enjoyed re-visiting it and doing that, learn or understand some more things here and there. The fact that there were projects after each part of the course helped a lot as each project had enough work to be done so that after you have completed it, you should have had a sound understanding of the content of the previous lectures.</p>
+	access_log /var/log/nginx/access.log;
+	error_log /var/log/nginx/error.log;
 
-<p>What really made the whole process something unique, is the Udacity community and I think that should be one of the very good reasons for someone to participate into this program. The interaction between people studying the same stuff and the general helpful mentality inside the community was a key factor that this course was more like a great learning experience and less than simple e-learning course. Kudos to all those on the according Slack channels that made this happen.</p>
+	gzip on;
+	gzip_disable &quot;msie6&quot;;
 
-<p>
+	# gzip_vary on;
+	# gzip_proxied any;
+	# gzip_comp_level 6;
+	# gzip_buffers 16 8k;
+	# gzip_http_version 1.1;
+	# gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript;
+
+	include /etc/nginx/conf.d/*.conf;
+	include /etc/nginx/sites-enabled/*;
+}
+</code></pre>
+
+<p>The file is structured into <strong>Contexts</strong>. The first one is the <em>events</em> Context and the second one is the <em>http</em> Context. This structure enables some advanced layering of your configuration as each context can have other nested context that inherits everything from its parent but can also override them as needed.</p>
+
+<p>Various things in this file can be tweaked based on your needs but, NGINX is so simple to use that you can go along even with the default settings. Some of the most important stuff are the following :</p>
+
+<p>worker_processes : This is the number of worker processes that NGINX will use. Because NGINX is single threaded, this number should usually be equal to the number of CPU core&rsquo;s.</p>
+
+<p>worker_connections : This is the maximum number of simultaneous connections for each worker process. This number can be limited from you host machine, but the bigger it is, the more simultaneous users the NGINX will be able to serve.</p>
+
+<p>access_log &amp; error_log : These are the files that NGINX will log various things and should be accessed for debugging and troubleshooting.</p>
+
+<p>gzip : These are the settings for GZIP compression of NGINX responses. Enabling this one along with the various sub-settings that by default are commented out, will result in a quite a big upgrade of performance. From the sub-settings of GZIP, care should be taken on gzip_comp_level, which is the level (1-10) of compression, and generally should not be above 6 as the gain in terms of size reduce is insignificant while it needs a lot more cpu usage, and on gzip_types, which is a list of response types that compression will be applied on.</p>
+
+<p>Lastly, we see at the end that we include everything from the sites-enabled folder. This folder actually holds symlinks to files inside the sites-available folder, so that&rsquo;s where the actual work should be done.</p>
+
+<p>Inside sites-available folder we can have our virtual host configuration files. Either create a new file for you application or edit the default one. A typical configuration looks like the below one.</p>
+
+<pre><code>upstream remoteApplicationServer {
+    server 10.10.10.10;
+}
+
+upstream remoteAPIServer {
+    server 20.20.20.20;
+    server 20.20.20.21;
+    server 20.20.20.22;
+    server 20.20.20.23;
+}
 
 
-    
-    
-        
-        
-        
-            
-        
-        
-            
-        
-    
+server {
+    listen 80;
+    server_name www.customapp.com customapp.com
+    root /var/www/html;
+    index index.html
 
-    
-    
-    
+        location / {
+            alias /var/www/html/customapp/;
+            try_files $uri $uri/ =404;
+        }
 
-    
-    
+        location /remoteapp {
+            proxy_set_header   Host             $host:$server_port;
+            proxy_set_header   X-Real-IP        $remote_addr;
+            proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+            proxy_pass http://remoteAPIServer/;
+        }
 
+        location /api/v1/ {
+            proxy_pass https://remoteAPIServer/api/v1/;
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection 'upgrade';
+            proxy_set_header Host $host;
+            proxy_cache_bypass $http_upgrade;
+            proxy_redirect http:// https://;
+        }
+}
+</code></pre>
 
+<p>Much like the nginx.conf, this one also uses the concept of nested contexts (and all of these are also nested inside <em>http</em> context of nginx.conf, so they also inherit everything from it).</p>
 
+<p>The <strong>server</strong> context defines a specific virtual server to handle your clients requests. You can have multiple server blocks and NGINX will choose between of them based on the <em>listen</em> and <em>server_name</em> directives.</p>
 
-    
+<p>Inside a server block, we define multiple <strong>location</strong> contexts that are used to decide how to handle the client requests. Whenever a request come&rsquo;s in, NGINX will try to match its URI to one of those location definitions and handle it accordingly. There are many important directives that can be used under the location context, like :</p>
 
+<p>try_files : will try to serve a static file found under the folder that points the root directive.</p>
 
-    
+<p>proxy_pass : will send the request to a specified proxied server.</p>
 
-    
-        <p><span class="image center-image">
-            <img src="/img/posts/android-certificate//aad_badge.png" alt="Certification Badge" />
-        </span></p>
-    
+<p>rewrite : will rewrite the incoming URI based on a reqular expression so that another location block will be able to handle it.</p>
 
+<p>The <strong>upstream</strong> context defines a pool of servers that NGINX will proxy the requests to. After we create an upstream block and define a server inside it we can then reference it by name inside our location blocks. Further more, an upstream context can have many servers assigned under it so that NGINX will do some load balancing when proxying the requests.</p>
 
-<div style='text-align:center'><span><em>You get a fitting badge when you successfuly finish the exam to show around</em></span></div></p>
+<h2 id="start-nginx">Start NGINX</h2>
 
-<p>The exam itself was of moderate difficulty. I had enough time to finish all the required tasks and to take another look just to be sure (you do not get second chances on the exam phase, unlike the course projects). I reckon that newcomers might have struggled with the time limit ( 24 hours start to finish ) but, if you have done your homework, you will not have any problem. After about a week I got an email that said I had passed the exam and I should follow up with the exit interview. I scheduled the interview for next week but shortly after, I had to re-arrange it for another week further. By the time the interview had come up, I had forgotten most of the work I had done for the exam&rsquo;s project so (thankfully), I did a short review of my code before the call. During the interview I was questioned about my implementation (not very specific stuff) and had I not did this short review, I do not know how I would have responded. In short, if time has passed by between the practical exam and the exit interview, it is best to catch up a little before the call because you will need it during it. About a week after that, I got another email that said I was finally a certified Associate Android Developer.</p>
+<p>After we have finished with the configuration and we have moved our web application over to the appropriate folder, we can start up NGINX using the below command :</p>
 
-<h2 id="summary">Summary</h2>
+<pre><code>sudo service nginx start
+</code></pre>
 
-<p>The AAD is a great way to show your level of expertise on Android Development, especially if you have small to none working experience and you want to prove yourself in an interview, and considering its relatively low price, there is really no reason why someone would not want to  get on with it. Even if you already are a developer I think there is much to gain here, as I can see this as a start of something bigger. Normally, this will not be the end of Google&rsquo;s journey on certifications, so getting along now might help later with the more advanced versions of this.
-The Udacity course itself is a very good way to learn about Android Development, even if you do not intend to take the exam ( although in that case, they offer another course more streamlined that does not take into account the certification ). Having the certification in mind, I think its a perfect pick and will definitely help to pass the exam, although it might be a little of an overkill for a professional Java developer. In the end, no matter what, you will get a lot back for the price paid.</p>
+<p>After that, whenever we change something on our configuration we only have to reload it (without downtime) using :</p>
+
+<pre><code>service nginx reload
+</code></pre>
+
+<p>Lastly, we can check nginx status using :</p>
+
+<pre><code>service nginx status
+</code></pre>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p><img src="/img/posts/nginx/nginx_arch.png" alt="Nginx Arch" /></p>
+
+<p>With so many features out of the box, NGINX can be a great way to serve your application or, even to use it only as a proxy and/or load balancer for your other web servers. Understanding the way NGINX works and handles the requests will give a lot of power to the administrator of the applications.</p>
 
     </div>
 
@@ -394,15 +462,15 @@ The Udacity course itself is a very good way to learn about Android Development,
 
     
     
-        <li><a href='/categories/android'>Android</a></li>
+        <li><a href='/categories/nginx'>Nginx</a></li>
     
-        <li><a href='/categories/google'>Google</a></li>
+        <li><a href='/categories/server'>Server</a></li>
     
-        <li><a href='/categories/udacity'>Udacity</a></li>
+        <li><a href='/categories/proxy'>Proxy</a></li>
     
-        <li><a href='/categories/java'>Java</a></li>
+        <li><a href='/categories/load'>Load</a></li>
     
-        <li><a href='/categories/certification'>Certification</a></li>
+        <li><a href='/categories/devops'>DevOps</a></li>
     
 </ul>
 
@@ -410,8 +478,8 @@ The Udacity course itself is a very good way to learn about Android Development,
 </article>
 <ul class="actions pagination">
     
-        <li><a href="https://stefvardalos.github.io/blog/static-site-generators/"
-                class="button big previous">Static sites are BACK!</a></li>
+        <li><a href="https://stefvardalos.github.io/blog/androidcertified/"
+                class="button big previous">Becoming Associate Android Developer, Certified by Google!</a></li>
     
 
     
@@ -424,9 +492,9 @@ The Udacity course itself is a very good way to learn about Android Development,
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'shortname';
-    var disqus_identifier = 'https:\/\/stefvardalos.github.io\/blog\/androidcertified\/';
-    var disqus_title = 'Becoming Associate Android Developer, Certified by Google!';
-    var disqus_url = 'https:\/\/stefvardalos.github.io\/blog\/androidcertified\/';
+    var disqus_identifier = 'https:\/\/stefvardalos.github.io\/blog\/nginx\/';
+    var disqus_title = 'Serving your application using Nginx';
+    var disqus_url = 'https:\/\/stefvardalos.github.io\/blog\/nginx\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -450,7 +518,7 @@ The Udacity course itself is a very good way to learn about Android Development,
             
 
 
-<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fandroidcertified%2f&text=Becoming%20Associate%20Android%20Developer%2c%20Certified%20by%20Google%21&via=" target="_blank" class="share-btn twitter">
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&text=Serving%20your%20application%20using%20Nginx&via=" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
 </a></li>
@@ -459,19 +527,19 @@ The Udacity course itself is a very good way to learn about Android Development,
 
 
 
-<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fandroidcertified%2f" target="_blank" class="share-btn facebook">
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
 </a></li>
 
 
-<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fandroidcertified%2f&title=Becoming%20Associate%20Android%20Developer%2c%20Certified%20by%20Google%21" target="_blank" class="share-btn reddit">
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&title=Serving%20your%20application%20using%20Nginx" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
 </a></li>
 
 
-<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fandroidcertified%2f&title=Becoming%20Associate%20Android%20Developer%2c%20Certified%20by%20Google%21" target="_blank" class="share-btn linkedin">
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&title=Serving%20your%20application%20using%20Nginx" target="_blank" class="share-btn linkedin">
     <i class="fa fa-linkedin"></i>
     <p>LinkedIn</p>
 </a></li>
@@ -480,7 +548,7 @@ The Udacity course itself is a very good way to learn about Android Development,
 
 
 
-<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fandroidcertified%2f" target="_blank" class="share-btn email">
+<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
 </a></li>
@@ -596,13 +664,13 @@ The Udacity course itself is a very good way to learn about Android Development,
                     <li>
                         <article>
                             <header>
-                                <h3><a href="https://stefvardalos.github.io/blog/androidcertified/">Becoming Associate Android Developer, Certified by Google!</a></h3>
+                                <h3><a href="https://stefvardalos.github.io/blog/nginx/">Serving your application using Nginx</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2017-10-23'>
-                                    October 23, 2017</time>
+                                    '2018-03-11'>
+                                    March 11, 2018</time>
                             </header>
                         </article>
                     </li>
@@ -610,13 +678,13 @@ The Udacity course itself is a very good way to learn about Android Development,
                     <li>
                         <article>
                             <header>
-                                <h3><a href="https://stefvardalos.github.io/blog/static-site-generators/">Static sites are BACK!</a></h3>
+                                <h3><a href="https://stefvardalos.github.io/blog/androidcertified/">Becoming Associate Android Developer, Certified by Google!</a></h3>
                                 
                                     
                                 
                                 <time class="published" datetime=
-                                    '2017-08-21'>
-                                    August 21, 2017</time>
+                                    '2017-10-23'>
+                                    October 23, 2017</time>
                             </header>
                         </article>
                     </li>
@@ -717,6 +785,15 @@ The Udacity course itself is a very good way to learn about Android Development,
                     <li>
                         <article>
                             <header>
+                                <a href="/categories/devops/">DevOps</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="/categories/google/">Google</a>
                                 <span style="float:right;">1</span>
                             </header>
@@ -744,6 +821,15 @@ The Udacity course itself is a very good way to learn about Android Development,
                     <li>
                         <article>
                             <header>
+                                <a href="/categories/load/">Load</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="/categories/logging/">Logging</a>
                                 <span style="float:right;">1</span>
                             </header>
@@ -753,7 +839,34 @@ The Udacity course itself is a very good way to learn about Android Development,
                     <li>
                         <article>
                             <header>
+                                <a href="/categories/nginx/">Nginx</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/proxy/">Proxy</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
                                 <a href="/categories/react.js/">React.js</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/server/">Server</a>
                                 <span style="float:right;">1</span>
                             </header>
                         </article>

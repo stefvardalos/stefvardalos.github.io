@@ -1,0 +1,965 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Serving your application using Nginx</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.20.6" />
+        
+    
+        
+        
+    
+
+    
+
+    <link rel="apple-icon-precomposed"
+        href='/favicon/apple-icon-precomposed.png'>
+    <link rel="icon" href='/favicon/favicon-96x96.png'>
+    
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage"
+        content='/favicon/ms-icon-70x70.png'>
+
+
+
+        
+            <meta name="author" content="Stefanos Vardalos">
+        
+        
+            
+                <meta name="description" content="Personal Website for Stefanos Vardalos">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="Serving your application using Nginx"/>
+<meta name="twitter:title" content="Serving your application using Nginx"/>
+<meta name="twitter:description" content="Serving your application using Nginx You have created a web application and now you are searching for the right web server to use to serve it. Your application might consist of multiple static files (HTML , CSS , Javascript etc) and a backend API service or even, multiple webservices . Using Nginx might be the what you are looking for, and there are couple of reasons for that. NGINX can be a powerful web server, using a non-threaded, event-driven architecture that enables him to outperform Apache, but can also do other important things, like load balancing, caching or used as a reverse proxy."/>
+
+
+        <meta property="og:title" content="Serving your application using Nginx" />
+<meta property="og:description" content="Serving your application using Nginx You have created a web application and now you are searching for the right web server to use to serve it. Your application might consist of multiple static files (HTML , CSS , Javascript etc) and a backend API service or even, multiple webservices . Using Nginx might be the what you are looking for, and there are couple of reasons for that. NGINX can be a powerful web server, using a non-threaded, event-driven architecture that enables him to outperform Apache, but can also do other important things, like load balancing, caching or used as a reverse proxy." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://stefvardalos.github.io/blog/nginx/" />
+
+
+
+<meta property="article:published_time" content="2018-03-11T10:30:00&#43;03:00"/>
+<meta property="article:modified_time" content="2018-03-11T10:30:00&#43;03:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Serving your application using Nginx">
+<meta itemprop="description" content="Serving your application using Nginx You have created a web application and now you are searching for the right web server to use to serve it. Your application might consist of multiple static files (HTML , CSS , Javascript etc) and a backend API service or even, multiple webservices . Using Nginx might be the what you are looking for, and there are couple of reasons for that. NGINX can be a powerful web server, using a non-threaded, event-driven architecture that enables him to outperform Apache, but can also do other important things, like load balancing, caching or used as a reverse proxy.">
+
+
+<meta itemprop="dateModified" content="2018-03-11T10:30:00&#43;03:00" />
+<meta itemprop="wordCount" content="1173">
+
+
+
+<meta itemprop="keywords" content="Android,Angular,Blog,CSS,Certification,Debugging,DevOps,Google,HTML,Java,Javascript,Load,Logging,Nginx,Proxy,React.js,Server,Udacity,generators," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+            <link rel="stylesheet" href="/libs/font-mfizz-2.4.1/font-mfizz.css">
+            <link rel="stylesheet" href="/libs/font-awesome-extension-v.0.0.3/font-awesome-extension.css">
+            <link rel="stylesheet" href="/libs/devicons-master/css/devicons.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">Stefanos Vardalos</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        
+                            <i class="fa fa-user">&nbsp;</i>About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                    <i class="fa fa-user">&nbsp;</i>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="https://stefvardalos.github.io/blog/nginx/"><p>Serving your application using Nginx</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="https://stefvardalos.github.io/blog/androidcertified/"><p>Becoming Associate Android Developer, Certified by Google!</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>If you <i class="fa fa-heart" aria-hidden="true"></i> what you read, feel free to <i class="fa fa-bullhorn" aria-hidden="true"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&text=Serving%20your%20application%20using%20Nginx&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&title=Serving%20your%20application%20using%20Nginx" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&title=Serving%20your%20application%20using%20Nginx" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+
+
+
+<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="https://stefvardalos.github.io/blog/nginx/">Serving your application using Nginx</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-03-11'>
+            March 11, 2018</time>
+        <span class="author">Stefanos Vardalos</span>
+        
+            <p>6 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&text=Serving%20your%20application%20using%20Nginx&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&title=Serving%20your%20application%20using%20Nginx" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f&title=Serving%20your%20application%20using%20Nginx" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+
+
+
+<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fnginx%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+
+    <div id="content">
+        
+
+<p><img src="/img/posts/nginx/servers.jpg" alt="Server Status" /></p>
+
+<h1 id="serving-your-application-using-nginx">Serving your application using Nginx</h1>
+
+<p>You have created a web application and now you are searching for the right web server to use to serve it. Your application might consist of multiple static files (HTML , CSS , Javascript etc) and a backend API service or even, multiple webservices . Using Nginx might be the what you are looking for, and there are couple of reasons for that. NGINX can be a powerful web server, using a non-threaded, event-driven architecture that enables him to outperform Apache, but can also do other important things, like load balancing, caching or used as a reverse proxy.</p>
+
+<p>Below we will see some basic steps on how to install NGINX and then how to configure the most important parts of it.</p>
+
+<h2 id="basic-installation-architecture">Basic Installation - Architecture</h2>
+
+<p>There are two ways to install NGINX, either using a pre-built binary or building it up from source. The first is obviously the easiest and faster option, but the second one gives the ability to choose and include various third-party modules that make NGINX even more powerful and customized to fit your needs. Based on the needs of the application, you might gain a lot from building up your own binary.</p>
+
+<p>To install a Prebuilt Debian Package you only have to do :</p>
+
+<pre><code>sudo apt-get update
+sudo apt-get install nginx
+</code></pre>
+
+<p>After the installation process has finished, you can verify everything is ok by running the below command, which should print the latest version of nginx :</p>
+
+<pre><code>sudo nginx -v
+nginx version: nginx/1.6.2
+</code></pre>
+
+<p>After all is finished, your new webserver will be installed under <strong>/etc/nginx/</strong> . If you go inside this folder you will see several files and folders, the most important ones that will require our attention later is the file <em>nginx.conf</em> and the folder <em>sites-available</em>.</p>
+
+<h2 id="configuration-settings">Configuration Settings</h2>
+
+<p>The core settings on NGINX are in the nginx.conf file, which by default should look like this.</p>
+
+<pre><code>user www-data;
+worker_processes 4;
+pid /run/nginx.pid;
+
+events {
+	worker_connections 768;
+	# multi_accept on;
+}
+
+http {
+
+	sendfile on;
+	tcp_nopush on;
+	tcp_nodelay on;
+	keepalive_timeout 65;
+	types_hash_max_size 2048;
+	# server_tokens off;
+
+	# server_names_hash_bucket_size 64;
+	# server_name_in_redirect off;
+
+	include /etc/nginx/mime.types;
+	default_type application/octet-stream;
+
+	access_log /var/log/nginx/access.log;
+	error_log /var/log/nginx/error.log;
+
+	gzip on;
+	gzip_disable &quot;msie6&quot;;
+
+	# gzip_vary on;
+	# gzip_proxied any;
+	# gzip_comp_level 6;
+	# gzip_buffers 16 8k;
+	# gzip_http_version 1.1;
+	# gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript;
+
+	include /etc/nginx/conf.d/*.conf;
+	include /etc/nginx/sites-enabled/*;
+}
+</code></pre>
+
+<p>The file is structured into <strong>Contexts</strong>. The first one is the <em>events</em> Context and the second one is the <em>http</em> Context. This structure enables some advanced layering of your configuration as each context can have other nested context that inherits everything from its parent but can also override them as needed.</p>
+
+<p>Various things in this file can be tweaked based on your needs but, NGINX is so simple to use that you can go along even with the default settings. Some of the most important stuff are the following :</p>
+
+<p>worker_processes : This is the number of worker processes that NGINX will use. Because NGINX is single threaded, this number should usually be equal to the number of CPU core&rsquo;s.</p>
+
+<p>worker_connections : This is the maximum number of simultaneous connections for each worker process. This number can be limited from you host machine, but the bigger it is, the more simultaneous users the NGINX will be able to serve.</p>
+
+<p>access_log &amp; error_log : These are the files that NGINX will log various things and should be accessed for debugging and troubleshooting.</p>
+
+<p>gzip : These are the settings for GZIP compression of NGINX responses. Enabling this one along with the various sub-settings that by default are commented out, will result in a quite a big upgrade of performance. From the sub-settings of GZIP, care should be taken on gzip_comp_level, which is the level (1-10) of compression, and generally should not be above 6 as the gain in terms of size reduce is insignificant while it needs a lot more cpu usage, and on gzip_types, which is a list of response types that compression will be applied on.</p>
+
+<p>Lastly, we see at the end that we include everything from the sites-enabled folder. This folder actually holds symlinks to files inside the sites-available folder, so that&rsquo;s where the actual work should be done.</p>
+
+<p>Inside sites-available folder we can have our virtual host configuration files. Either create a new file for you application or edit the default one. A typical configuration looks like the below one.</p>
+
+<pre><code>upstream remoteApplicationServer {
+    server 10.10.10.10;
+}
+
+upstream remoteAPIServer {
+    server 20.20.20.20;
+    server 20.20.20.21;
+    server 20.20.20.22;
+    server 20.20.20.23;
+}
+
+
+server {
+    listen 80;
+    server_name www.customapp.com customapp.com
+    root /var/www/html;
+    index index.html
+
+        location / {
+            alias /var/www/html/customapp/;
+            try_files $uri $uri/ =404;
+        }
+
+        location /remoteapp {
+            proxy_set_header   Host             $host:$server_port;
+            proxy_set_header   X-Real-IP        $remote_addr;
+            proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+            proxy_pass http://remoteAPIServer/;
+        }
+
+        location /api/v1/ {
+            proxy_pass https://remoteAPIServer/api/v1/;
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection 'upgrade';
+            proxy_set_header Host $host;
+            proxy_cache_bypass $http_upgrade;
+            proxy_redirect http:// https://;
+        }
+}
+</code></pre>
+
+<p>Much like the nginx.conf, this one also uses the concept of nested contexts (and all of these are also nested inside <em>http</em> context of nginx.conf, so they also inherit everything from it).</p>
+
+<p>The <strong>server</strong> context defines a specific virtual server to handle your clients requests. You can have multiple server blocks and NGINX will choose between of them based on the <em>listen</em> and <em>server_name</em> directives.</p>
+
+<p>Inside a server block, we define multiple <strong>location</strong> contexts that are used to decide how to handle the client requests. Whenever a request come&rsquo;s in, NGINX will try to match its URI to one of those location definitions and handle it accordingly. There are many important directives that can be used under the location context, like :</p>
+
+<p>try_files : will try to serve a static file found under the folder that points the root directive.</p>
+
+<p>proxy_pass : will send the request to a specified proxied server.</p>
+
+<p>rewrite : will rewrite the incoming URI based on a reqular expression so that another location block will be able to handle it.</p>
+
+<p>The <strong>upstream</strong> context defines a pool of servers that NGINX will proxy the requests to. After we create an upstream block and define a server inside it we can then reference it by name inside our location blocks. Further more, an upstream context can have many servers assigned under it so that NGINX will do some load balancing when proxying the requests.</p>
+
+<h2 id="start-nginx">Start NGINX</h2>
+
+<p>After we have finished with the configuration and we have moved our web application over to the appropriate folder, we can start up NGINX using the below command :</p>
+
+<pre><code>sudo service nginx start
+</code></pre>
+
+<p>After that, whenever we change something on our configuration we only have to reload it (without downtime) using :</p>
+
+<pre><code>service nginx reload
+</code></pre>
+
+<p>Lastly, we can check nginx status using :</p>
+
+<pre><code>service nginx status
+</code></pre>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p><img src="/img/posts/nginx/nginx_arch.png" alt="Nginx Arch" /></p>
+
+<p>With so many features out of the box, NGINX can be a great way to serve your application or, even to use it only as a proxy and/or load balancer for your other web servers. Understanding the way NGINX works and handles the requests will give a lot of power to the administrator of the applications.</p>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/nginx'>Nginx</a></li>
+    
+        <li><a href='/categories/server'>Server</a></li>
+    
+        <li><a href='/categories/proxy'>Proxy</a></li>
+    
+        <li><a href='/categories/load'>Load</a></li>
+    
+        <li><a href='/categories/devops'>DevOps</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="https://stefvardalos.github.io/blog/androidcertified/"
+                class="button big previous">Becoming Associate Android Developer, Certified by Google!</a></li>
+    
+
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'shortname';
+    var disqus_identifier = 'https:\/\/stefvardalos.github.io\/blog\/nginx\/';
+    var disqus_title = 'Serving your application using Nginx';
+    var disqus_url = 'https:\/\/stefvardalos.github.io\/blog\/nginx\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <img src="/img/main/coding_rec.png" width="40%" alt="StefanosVardalos" />
+                
+            
+            
+                <header>
+                    <h2>Stefanos Vardalos</h2>
+                    <p>I'm a software engineer <i class="fa fa-desktop" aria-hidden="true"></i>, a moviegoer <i class="fa fa-film" aria-hidden="true"></i>, a music lover <i class="fa fa-headphones" aria-hidden="true"></i>, a book reader <i class="fa fa-book" aria-hidden="true"></i>, a OnePlus enthusiast <i class="fa fa-mobile" aria-hidden="true"></i>, a tv series addicted <i class="fa fa-television" aria-hidden="true"></i>, a geek <i class="fa fae-glass" aria-hidden="true"></i>.</p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/stefvardalos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@stefvardalos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/stefvardalos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:stefvardalos@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="https://stefvardalos.github.io/blog/nginx/">Serving your application using Nginx</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2018-03-11'>
+                                    March 11, 2018</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="https://stefvardalos.github.io/blog/androidcertified/">Becoming Associate Android Developer, Certified by Google!</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-10-23'>
+                                    October 23, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript/">Javascript</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/android/">Android</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/angular/">Angular</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/blog/">Blog</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/css/">CSS</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/certification/">Certification</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/debugging/">Debugging</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/devops/">DevOps</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/google/">Google</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/html/">HTML</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/java/">Java</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/load/">Load</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/logging/">Logging</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/nginx/">Nginx</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/proxy/">Proxy</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/react.js/">React.js</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/server/">Server</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/udacity/">Udacity</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/generators/">generators</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>I am a FullStack Developer, living in Greece. I studied Automation Engineering and I got a Master at Advanced Computing and Informatics Systems. This is the place where I will try to write about the things I find interesting.</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Stefanos Vardalos. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

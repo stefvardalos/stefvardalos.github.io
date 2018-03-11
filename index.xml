@@ -6,10 +6,19 @@
     <description>Recent content on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Oct 2017 10:30:00 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 11 Mar 2018 10:30:00 +0300</lastBuildDate>
     
 	<atom:link href="https://stefvardalos.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Serving your application using Nginx</title>
+      <link>https://stefvardalos.github.io/blog/nginx/</link>
+      <pubDate>Sun, 11 Mar 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/blog/nginx/</guid>
+      <description>Serving your application using Nginx You have created a web application and now you are searching for the right web server to use to serve it. Your application might consist of multiple static files (HTML , CSS , Javascript etc) and a backend API service or even, multiple webservices . Using Nginx might be the what you are looking for, and there are couple of reasons for that. NGINX can be a powerful web server, using a non-threaded, event-driven architecture that enables him to outperform Apache, but can also do other important things, like load balancing, caching or used as a reverse proxy.</description>
+    </item>
     
     <item>
       <title>Becoming Associate Android Developer, Certified by Google!</title>

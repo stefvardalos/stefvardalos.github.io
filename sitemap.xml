@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://stefvardalos.github.io/blog/nginx/</loc>
+    <lastmod>2018-03-11T10:30:00+03:00</lastmod>
+  </url>
   
   <url>
     <loc>https://stefvardalos.github.io/blog/androidcertified/</loc>
@@ -47,7 +51,7 @@
   
   <url>
     <loc>https://stefvardalos.github.io/blog/</loc>
-    <lastmod>2017-10-23T10:30:00+03:00</lastmod>
+    <lastmod>2018-03-11T10:30:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -72,6 +76,12 @@
   <url>
     <loc>https://stefvardalos.github.io/categories/debugging/</loc>
     <lastmod>2017-07-27T11:20:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/categories/devops/</loc>
+    <lastmod>2018-03-11T10:30:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,8 +116,26 @@
   </url>
   
   <url>
+    <loc>https://stefvardalos.github.io/categories/load/</loc>
+    <lastmod>2018-03-11T10:30:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stefvardalos.github.io/categories/logging/</loc>
     <lastmod>2017-07-27T11:20:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/categories/nginx/</loc>
+    <lastmod>2018-03-11T10:30:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/categories/proxy/</loc>
+    <lastmod>2018-03-11T10:30:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -118,8 +146,14 @@
   </url>
   
   <url>
+    <loc>https://stefvardalos.github.io/categories/server/</loc>
+    <lastmod>2018-03-11T10:30:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stefvardalos.github.io/</loc>
-    <lastmod>2017-10-23T10:30:00+03:00</lastmod>
+    <lastmod>2018-03-11T10:30:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,903 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>CookList : From idea to project to finished app</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.20.6" />
+        
+    
+        
+        
+    
+
+    
+
+    <link rel="apple-icon-precomposed"
+        href='/favicon/apple-icon-precomposed.png'>
+    <link rel="icon" href='/favicon/favicon-96x96.png'>
+    
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage"
+        content='/favicon/ms-icon-70x70.png'>
+
+
+
+        
+            <meta name="author" content="Stefanos Vardalos">
+        
+        
+            
+                <meta name="description" content="Personal Website for Stefanos Vardalos">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="CookList : From idea to project to finished app"/>
+<meta name="twitter:title" content="CookList : From idea to project to finished app"/>
+<meta name="twitter:description" content="Turning an idea to side project to finished app Every developer should try to have some time to work on a side project, either to improve his development skills, or to feed his creativity hunger. That can be tough having a full time job but, the beauty of the side project is that you can work on it on your own pace. The first step is to find an idea that you would want to work on."/>
+
+
+        <meta property="og:title" content="CookList : From idea to project to finished app" />
+<meta property="og:description" content="Turning an idea to side project to finished app Every developer should try to have some time to work on a side project, either to improve his development skills, or to feed his creativity hunger. That can be tough having a full time job but, the beauty of the side project is that you can work on it on your own pace. The first step is to find an idea that you would want to work on." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://stefvardalos.github.io/blog/cooklist/" />
+
+
+
+<meta property="article:published_time" content="2018-08-27T10:30:00&#43;03:00"/>
+<meta property="article:modified_time" content="2018-08-27T10:30:00&#43;03:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="CookList : From idea to project to finished app">
+<meta itemprop="description" content="Turning an idea to side project to finished app Every developer should try to have some time to work on a side project, either to improve his development skills, or to feed his creativity hunger. That can be tough having a full time job but, the beauty of the side project is that you can work on it on your own pace. The first step is to find an idea that you would want to work on.">
+
+
+<meta itemprop="dateModified" content="2018-08-27T10:30:00&#43;03:00" />
+<meta itemprop="wordCount" content="1827">
+
+
+
+<meta itemprop="keywords" content="Android,Angular,Blog,CSS,Certification,Debugging,DevOps,Google,HTML,Java,Javascript,Load,Logging,Mongo,Nginx,NodeJS,Proxy,React.js,Server,Udacity,express,generators," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+            <link rel="stylesheet" href="/libs/font-mfizz-2.4.1/font-mfizz.css">
+            <link rel="stylesheet" href="/libs/font-awesome-extension-v.0.0.3/font-awesome-extension.css">
+            <link rel="stylesheet" href="/libs/devicons-master/css/devicons.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="/">Stefanos Vardalos</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/blog">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about">
+                        
+                            <i class="fa fa-user">&nbsp;</i>About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                
+                                    <i class="fa fa-user">&nbsp;</i>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="https://stefvardalos.github.io/blog/cooklist/"><p>CookList : From idea to project to finished app</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="https://stefvardalos.github.io/blog/nginx/"><p>Serving your application using Nginx</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>If you <i class="fa fa-heart" aria-hidden="true"></i> what you read, feel free to <i class="fa fa-bullhorn" aria-hidden="true"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcooklist%2f&text=CookList%20%3a%20From%20idea%20to%20project%20to%20finished%20app&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcooklist%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcooklist%2f&title=CookList%20%3a%20From%20idea%20to%20project%20to%20finished%20app" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcooklist%2f&title=CookList%20%3a%20From%20idea%20to%20project%20to%20finished%20app" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+
+
+
+<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcooklist%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="https://stefvardalos.github.io/blog/cooklist/">CookList : From idea to project to finished app</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2018-08-27'>
+            August 27, 2018</time>
+        <span class="author">Stefanos Vardalos</span>
+        
+            <p>9 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcooklist%2f&text=CookList%20%3a%20From%20idea%20to%20project%20to%20finished%20app&via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcooklist%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcooklist%2f&title=CookList%20%3a%20From%20idea%20to%20project%20to%20finished%20app" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcooklist%2f&title=CookList%20%3a%20From%20idea%20to%20project%20to%20finished%20app" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+
+
+
+<li><a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fcooklist%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+
+    <div id="content">
+        
+
+<p><img src="/img/posts/cooklist/appidea.jpg" alt="Idea from a need" /></p>
+
+<h1 id="turning-an-idea-to-side-project-to-finished-app">Turning an idea to side project to finished app</h1>
+
+<p>Every developer should try to have some time to work on a side project, either to improve his development skills, or to feed his creativity hunger. That can be tough having a full time job but, the beauty of the side project is that you can work on it on your own pace. The first step is to find an idea that you would want to work on. It can be anything but it will help a lot with the procrastination that will eventually come, if it is something close to your own interests.
+Also, keep in mind to try and experiment with new technologies during the development as it will help you advance your career but also keep it interesting till the end.</p>
+
+<p>When you got the initial idea, the next hard step is to actually start working on it. Even if you actually start the process (which for the most ideas you will not) there is a big chance you will  abandon the project relatively soon. But, there will be ideas worth pursuing and having fun trying to finish them. One of those ideas is the CookList app.</p>
+
+<h1 id="idea-from-daily-use">Idea from daily use</h1>
+
+<p>I was searching for a side project to work on but anything i started was quickly abandoned either by lose of interest or by pure laziness. Some ideas that i had were either too complicated or required a lot of work (not easily done alone). I tried to find something relative to my daily routine. One of my biggest interest is in music so, I tried to find something relative to that. I am also a regular Spotify user so, when i searched online and found out that they have an API to work with their data, I instantly started studying it to derive a plan for an application.
+<img src="/img/posts/cooklist/ideabook.jpg" alt="Idea from a need" />
+<div style='text-align:center'><span><em>Dont be afraid to actually write down your thoughts, it helps</em></span></div></p>
+
+<p>After some research on Spotify&rsquo;s great and <strong>really</strong> well documented API i came up with the root of an idea, for an app that will help users to create playlists and discover new music, based on their liked artists. What i did right after that is to look online for similar projects, to draw inspiration and find new things to add. There were some applications that really close to what i had first envisioned and others that provided some quality ideas in the end. Notably, the ones most important are these :</p>
+
+<ol>
+<li><a href="https://www.music-map.com">Music-Map</a> is a web app that finds bands that a user will probably like depending on his favorite band. It is part of a bigger discovery system called <a href="http://www.gnod.com/">Gnod</a> or Global Network of Discovery.</li>
+<li><a href="http://everynoise.com">everynoise</a> is a great project that tracks and analyzes data from Spotify to generate a scatter-plot of all the music genres.</li>
+<li><a href="http://playlists.net">playlists</a> is a very well known app that generates a playlist on Spotify based on a single artist/group that the user will provide. You can also search and listen other people&rsquo;s playlists.</li>
+<li><a href="http://www.musicroamer.com">Musicroamer</a> is a web app that visualizes the relations of the artists you like, generating a graph starting by a single group/artist that the user will provide, using data from last.fm.</li>
+</ol>
+
+<p>All the above projects gave me inspiration and helped me to fine-tune my idea and create something similar but also unique. The key difference of this idea is that the user will create a list of artists, starting with one that he will provide and following with related to that one and to his subsequent selections. This list will serve as the &ldquo;recipe&rdquo; for playlists as he, and other users later on, will be able to create playlists with random tracks from those artists. Furthermore, informations about the artists picks and also the tracks of the playlists will be visualized accordingly. And so, the journey to build CookList began (got it? because it creates &ldquo;recipes&rdquo;&hellip;ha).</p>
+
+<h1 id="app-development">App Development</h1>
+
+<p>Next up you have to pick the stack you want to work with. On the Front-End part, i was arguing between picking React (with i have only played around a little with some tutorials/small projects) or Angular (which is my main framework at work) and i ended up picking Angular because i wanted to checkout Teradata&rsquo;s Covalent UI Platform. On the Back-End part I played around with the idea of a Spring-Boot application but i ended up with a NodeJS along with Express Framework instead as it would have been much more suitable for the application needs. As for database I went with the safe choice of MongoDB.</p>
+
+<p>I started implementing my backend service creating simple endpoints that i knew later on will transform into the actual application features. Another useful point that can be made here is that you don&rsquo;t have to make everything from scratch. Search and reuse what others have created and try to build upon them. What came as a great help at that point is a very nice NodeJS wrapper for the Spotify&rsquo;s API from <a href="https://github.com/thelinmichael/spotify-web-api-node">thelinmichael</a>. Using that I started creating endpoints that were searching for artists, then getting related artists, then getting tracks for a specific artist etc. Once I had the very basic logic written in endpoints, i knew i could start implementing a simple accompanying UI.</p>
+
+<p>The UI part of the applications is a regular Angular 6 app but as i said i wanted to use Covalent UI Platform with it. The first iterations of the applications were build solely on Covalent&rsquo;s UI style but the outcome wasn&rsquo;t quite to my liking. Although it was handy that i could use all the powerful components of Covalent&rsquo;s Platform, the aesthetics of it were too much like a dashboard instead of an app. Although i kept to my initial decision for some time, in the end i removed most of Covalent and went on to transform a beautiful HTML5+CSS3 theme from <a href="https://html5up.net/">html5up</a> into Angular code. Moreover, i wanted to be able to create a couple of visualizations that will enrich the data i could get from Spotify&rsquo;s endpoints. For that purpose i chose the powerful <a href="https://ecomfe.github.io/echarts-doc/public/en/index.html">Echarts</a> library with which i could build beautiful charts and diagrams for the purposes of the application.
+<img src="/img/posts/cooklist/developcoffee.jpg" alt="real development" />
+<div style='text-align:center'><span><em>Coffee, the real power of the developer</em></span></div></p>
+
+<p>The development went on to finish up the core functionality of the idea. The required steps could be summed up into the below :</p>
+
+<ol>
+<li>A user should be able to type and search for an artist</li>
+<li>Related artists of the searched one would be available for selection</li>
+<li>Every subsequent selection would trigger a new request for related artists (populating the initial list with the new/unique ones)</li>
+<li>Creating a pool of popular songs from the selected artists and randomly picking a subset of those.</li>
+<li>If the user wants to save the resulting playlist to his Spotify, authorize him by loging in to Spotify and getting a required access token.</li>
+<li>Create the playlist on user&rsquo;s profile and add the required tracks.</li>
+<li>Save on MongoDB the created recipe and the resulting playlist.</li>
+</ol>
+
+<p>After the initial rounds of development other ideas came up as well, like :</p>
+
+<ol>
+<li>response caching ( <a href="https://www.npmjs.com/package/node-cache">node-cache</a>  is a very powerful library for that ).</li>
+<li>storing track&rsquo;s features on MongoDB for created playlists so users could see recipe&rsquo;s graphs without logging in.</li>
+<li>storing and re-using user&rsquo;s refresh token instead of requiring logging in every time</li>
+<li>Tag filtering based on genres.</li>
+<li>Utilize <a href="https://unsplash.com">Unsplash&rsquo;s</a>  API ( along with their own unsplash-js library ) to download a random image to set as playlist&rsquo;s cover.</li>
+</ol>
+
+<h1 id="app-deployment">App Deployment</h1>
+
+<p>When all the above were finished and i was quite satisfied with the outcome, i decided to freeze the new features and go on with the deployment of the application. I searched online to check what my options were for serving a NodeJS application and, although during development i was experimenting with Heroku, eventually i ended up picking Google Cloud which offers a great free trial were you get to spend up to 300$ on your first year, more than enough for at least the tests i wanted to run. Most importantly, as i had previous experience with AWS infrastructure, i wanted to check Google Cloud as well, were i had limited experience mostly with Google AppEngine. From then on, i started studying about Docker and Kubernetes where i had very little knowledge and after a while i could build a docker image of my application, upload it to Google&rsquo;s Container Registry and through Kubernetes deploy it into a cluster, using gcloud cli tool.
+<img src="/img/posts/cooklist/containers.jpg" alt="docker with gcloud" />
+<div style='text-align:center'><span><em>Not that kind of containers</em></span></div></p>
+
+<p>Last step was to make the application truly public. So, i went over to <a href="https://www.godaddy.com/">GoDaddy</a> and bought a brand new .app domain and after some struggles ( .app domains enforce https, something i didn&rsquo;t know at first and resulted in some weird situations ) <a href="https://cooklist.app">CookList</a> was up and running for anyone to see and use.</p>
+
+<h1 id="future-improvements">Future Improvements</h1>
+
+<p>There are many more ideas and features that can be built into this project. The most obvious and missing one for a web app of the 21st century is the social integration like facebook sharing etc. Other than that, the next big feature on the core mechanism is to be able (upon user request with specific option flag) to mix along tracks from artists/groups that you didn&rsquo;t pick but you will most probably like. Another one is to be able to find related recipes (based on the artists that you picked) and also be able to filter the recipes on artists just like you can do now based on genres. Some other form of visualization or other way of using the track&rsquo;s feature data might be a good idea as well. Last but not least, this app can become a mobile application as well, either using a framework like NativeScript or by building it up from scratch for Android and Iphone.</p>
+
+<h1 id="sum-up">Sum Up</h1>
+
+<p><img src="/img/posts/cooklist/cassette.jpeg" alt="only real playlist" />
+<div style='text-align:center'><span><em>The only real Playlist</em></span></div></p>
+
+<p>All this work took me almost 2 months, based on Github&rsquo;s commit history although, most of that time i had limited job done during week days as most of my commits are during weekends. During that time I learned to use a new UI Platform, further develop my skills on NodeJS and MongoDB and, familiarize myself and learn to use Docker and basic functions of Kubernetes along with Google Cloud Infrastructure. On top of that, in the end my work was materialized into a working app with which i am quite happy and i see myself coming back to it and implement more things either from my ideas or from user&rsquo;s requests.
+So, I strongly suggest everyone to do the same. Pick your next side project, start it up either by yourself or in a team of friends, develop features, learn new things and most importantly, have fun doing it. If all the above are there then you will benefit a lot from the process and if you get to the finish line, then you will also have something working and available for anyone to see.</p>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Categories
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/angular'>Angular</a></li>
+    
+        <li><a href='/categories/nodejs'>NodeJS</a></li>
+    
+        <li><a href='/categories/mongo'>Mongo</a></li>
+    
+        <li><a href='/categories/javascript'>Javascript</a></li>
+    
+        <li><a href='/categories/express'>express</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="https://stefvardalos.github.io/blog/nginx/"
+                class="button big previous">Serving your application using Nginx</a></li>
+    
+
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'shortname';
+    var disqus_identifier = 'https:\/\/stefvardalos.github.io\/blog\/cooklist\/';
+    var disqus_title = 'CookList : From idea to project to finished app';
+    var disqus_url = 'https:\/\/stefvardalos.github.io\/blog\/cooklist\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <img src="/img/main/coding_rec.png" width="40%" alt="StefanosVardalos" />
+                
+            
+            
+                <header>
+                    <h2>Stefanos Vardalos</h2>
+                    <p>I'm a software engineer <i class="fa fa-desktop" aria-hidden="true"></i>, a moviegoer <i class="fa fa-film" aria-hidden="true"></i>, a music lover <i class="fa fa-headphones" aria-hidden="true"></i>, a book reader <i class="fa fa-book" aria-hidden="true"></i>, a OnePlus enthusiast <i class="fa fa-mobile" aria-hidden="true"></i>, a tv series addicted <i class="fa fa-television" aria-hidden="true"></i>, a geek <i class="fa fae-glass" aria-hidden="true"></i>.</p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/stefvardalos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//medium.com/@stefvardalos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/stefvardalos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:stefvardalos@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="https://stefvardalos.github.io/blog/cooklist/">CookList : From idea to project to finished app</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2018-08-27'>
+                                    August 27, 2018</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="https://stefvardalos.github.io/blog/nginx/">Serving your application using Nginx</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2018-03-11'>
+                                    March 11, 2018</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/javascript/">Javascript</a>
+                                <span style="float:right;">4</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/angular/">Angular</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/android/">Android</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/blog/">Blog</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/css/">CSS</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/certification/">Certification</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/debugging/">Debugging</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/devops/">DevOps</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/google/">Google</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/html/">HTML</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/java/">Java</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/load/">Load</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/logging/">Logging</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/mongo/">Mongo</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/nginx/">Nginx</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/nodejs/">NodeJS</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/proxy/">Proxy</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/react.js/">React.js</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/server/">Server</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/udacity/">Udacity</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/express/">express</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/generators/">generators</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>I am a FullStack Developer, living in Greece. I studied Automation Engineering and I got a Master at Advanced Computing and Informatics Systems. This is the place where I will try to write about the things I find interesting.</p>
+
+            <ul class="actions">
+                <li><a href="/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Stefanos Vardalos. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

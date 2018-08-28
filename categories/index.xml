@@ -23,7 +23,7 @@
     <item>
       <title>Angular</title>
       <link>https://stefvardalos.github.io/categories/angular/</link>
-      <pubDate>Sun, 18 Jun 2017 18:54:16 +0300</pubDate>
+      <pubDate>Mon, 27 Aug 2018 10:30:00 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/angular/</guid>
       <description></description>
@@ -75,6 +75,15 @@
     </item>
     
     <item>
+      <title>Express</title>
+      <link>https://stefvardalos.github.io/categories/express/</link>
+      <pubDate>Mon, 27 Aug 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/express/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generators</title>
       <link>https://stefvardalos.github.io/categories/generators/</link>
       <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
@@ -113,7 +122,7 @@
     <item>
       <title>Javascript</title>
       <link>https://stefvardalos.github.io/categories/javascript/</link>
-      <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
+      <pubDate>Mon, 27 Aug 2018 10:30:00 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/javascript/</guid>
       <description></description>
@@ -138,11 +147,29 @@
     </item>
     
     <item>
+      <title>Mongo</title>
+      <link>https://stefvardalos.github.io/categories/mongo/</link>
+      <pubDate>Mon, 27 Aug 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/mongo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nginx</title>
       <link>https://stefvardalos.github.io/categories/nginx/</link>
       <pubDate>Sun, 11 Mar 2018 10:30:00 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NodeJS</title>
+      <link>https://stefvardalos.github.io/categories/nodejs/</link>
+      <pubDate>Mon, 27 Aug 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/nodejs/</guid>
       <description></description>
     </item>
     

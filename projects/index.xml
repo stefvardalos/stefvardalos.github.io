@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Stefanos Vardalos</title>
+    <link>https://stefvardalos.github.io/projects/</link>
+    <description>Recent content in Projects on Stefanos Vardalos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 May 2017 10:53:45 +0300</lastBuildDate>
+    
+	<atom:link href="https://stefvardalos.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CookList</title>
+      <link>https://stefvardalos.github.io/projects/cooklist/</link>
+      <pubDate>Mon, 01 May 2017 10:53:45 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/projects/cooklist/</guid>
+      <description>This app is build on Angular, NodeJS and MongoDB.
+A theme from HTML5UP is used
+All artists and track data are fetched from the Spotify API.
+Playlist&amp;rsquo;s cover images are fetched from Unsplash API.
+It is hosted on Google Cloud, deployed using Docker and Kubernetes.
+Click here to learn more or here to try it out.</description>
+    </item>
+    
+    <item>
+      <title>Faction Randomizer for SmashUp</title>
+      <link>https://stefvardalos.github.io/projects/smashup/</link>
+      <pubDate>Mon, 01 May 2017 10:53:45 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/projects/smashup/</guid>
+      <description>This is an Android application build on Ionic Framework.
+It is an application that helps players of the SmashUp board game to set it up easier / faster.
+You can download it from Google PlayStore by clicking here.</description>
+    </item>
+    
+    <item>
+      <title>PickAMovie</title>
+      <link>https://stefvardalos.github.io/projects/pickamovie/</link>
+      <pubDate>Mon, 01 May 2017 10:53:45 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/projects/pickamovie/</guid>
+      <description>This is an Android application build on Java.
+It is an application that helps user to find a movie to watch, based on the responses they give on some questions.
+It uses the TMDb API to query and fetch info about Movies.
+You can download it from Google PlayStore by clicking here.
+You can check its Privacy Policy here</description>
+    </item>
+    
+    <item>
+      <title>StefVardalos.github.io</title>
+      <link>https://stefvardalos.github.io/projects/stefvardalos/</link>
+      <pubDate>Mon, 01 May 2017 10:53:45 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/projects/stefvardalos/</guid>
+      <description>This is static webpage / blog build using the Hugo Framework.
+A theme originally developed from HTML5UP is used, ported to Hugo by *jpescador.
+It is hosted on GitHub Pages.</description>
+    </item>
+    
+  </channel>
+</rss>

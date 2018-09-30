@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Stefanos Vardalos</title>
+    <title>Blog on Stefanos Vardalos</title>
     <link>https://stefvardalos.github.io/blog/</link>
-    <description>Recent content in Blogs on Stefanos Vardalos</description>
+    <description>Recent content in Blog on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Aug 2018 10:30:00 +0300</lastBuildDate>
@@ -54,8 +54,7 @@ By passing this exam and earning the Associate Android Developer Certification, 
       <pubDate>Thu, 27 Jul 2017 11:20:00 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/blog/js-logging/</guid>
-      <description>I have no idea what is going on…
-You should have better logging now! There is a part of software development that not all developers take very seriously. That part is proper logging and everyone who has lost countless hours during debugging knows exactly what I mean.
+      <description>*I have no idea what is going on…* You should have better logging now! There is a part of software development that not all developers take very seriously. That part is proper logging and everyone who has lost countless hours during debugging knows exactly what I mean.
 Useful logs can provide the developer ( especially when someone has to debug/maintain someone else’s code ) with tremendous help when trying to understand what the code actually does.</description>
     </item>
     

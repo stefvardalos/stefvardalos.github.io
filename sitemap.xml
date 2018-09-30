@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://stefvardalos.github.io/blog/cooklist/</loc>
@@ -37,6 +38,31 @@
   </url>
   
   <url>
+    <loc>https://stefvardalos.github.io/projects/cooklist/</loc>
+    <lastmod>2017-05-01T10:53:45+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/projects/smashup/</loc>
+    <lastmod>2017-05-01T10:53:45+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/projects/pickamovie/</loc>
+    <lastmod>2017-05-01T10:53:45+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/custom/pickamovie/privacy_policy/</loc>
+    <lastmod>2017-05-01T10:53:45+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/projects/stefvardalos/</loc>
+    <lastmod>2017-05-01T10:53:45+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://stefvardalos.github.io/categories/android/</loc>
     <lastmod>2017-10-23T10:30:00+03:00</lastmod>
     <priority>0</priority>
@@ -49,14 +75,14 @@
   </url>
   
   <url>
-    <loc>https://stefvardalos.github.io/categories/blog/</loc>
-    <lastmod>2017-08-21T12:15:16+03:00</lastmod>
+    <loc>https://stefvardalos.github.io/blog/</loc>
+    <lastmod>2018-08-27T10:30:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://stefvardalos.github.io/blog/</loc>
-    <lastmod>2018-08-27T10:30:00+03:00</lastmod>
+    <loc>https://stefvardalos.github.io/categories/blog/</loc>
+    <lastmod>2017-08-21T12:15:16+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -75,6 +101,12 @@
   <url>
     <loc>https://stefvardalos.github.io/categories/certification/</loc>
     <lastmod>2017-10-23T10:30:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/custom/</loc>
+    <lastmod>2017-05-01T10:53:45+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -153,6 +185,12 @@
   <url>
     <loc>https://stefvardalos.github.io/categories/nodejs/</loc>
     <lastmod>2018-08-27T10:30:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/projects/</loc>
+    <lastmod>2017-05-01T10:53:45+03:00</lastmod>
     <priority>0</priority>
   </url>
   

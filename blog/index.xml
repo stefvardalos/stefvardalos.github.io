@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Stefanos Vardalos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Aug 2018 10:30:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 29 Oct 2018 10:30:00 +0300</lastBuildDate>
     
 	<atom:link href="https://stefvardalos.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MacBook : Dev Setup</title>
+      <link>https://stefvardalos.github.io/blog/macbook/</link>
+      <pubDate>Mon, 29 Oct 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/blog/macbook/</guid>
+      <description>MacBook : Dev Setup I have been using mostly linux for many years now but, I just got a new Macbook Pro (2018). I had moderate previous experience with macOS before but I never had one of these machines as my main gear. After my initial &amp;ldquo;wow&amp;rdquo; moments with its screen and some &amp;ldquo;wtf&amp;rdquo; moments with its (lack of) ports, I started migrating my enviroment and searching for whatever I had to install to make this beast my own.</description>
+    </item>
     
     <item>
       <title>CookList : From idea to project to finished app</title>

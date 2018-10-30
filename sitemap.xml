@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://stefvardalos.github.io/blog/macbook/</loc>
+    <lastmod>2018-10-29T10:30:00+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://stefvardalos.github.io/blog/cooklist/</loc>
     <lastmod>2018-08-27T10:30:00+03:00</lastmod>
   </url>
@@ -76,7 +81,7 @@
   
   <url>
     <loc>https://stefvardalos.github.io/blog/</loc>
-    <lastmod>2018-08-27T10:30:00+03:00</lastmod>
+    <lastmod>2018-10-29T10:30:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -123,18 +128,6 @@
   </url>
   
   <url>
-    <loc>https://stefvardalos.github.io/categories/express/</loc>
-    <lastmod>2018-08-27T10:30:00+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stefvardalos.github.io/categories/generators/</loc>
-    <lastmod>2017-08-21T12:15:16+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://stefvardalos.github.io/categories/google/</loc>
     <lastmod>2017-10-23T10:30:00+03:00</lastmod>
     <priority>0</priority>
@@ -159,6 +152,12 @@
   </url>
   
   <url>
+    <loc>https://stefvardalos.github.io/categories/laptop/</loc>
+    <lastmod>2018-10-29T10:30:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://stefvardalos.github.io/categories/load/</loc>
     <lastmod>2018-03-11T10:30:00+03:00</lastmod>
     <priority>0</priority>
@@ -167,6 +166,12 @@
   <url>
     <loc>https://stefvardalos.github.io/categories/logging/</loc>
     <lastmod>2017-07-27T11:20:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/categories/macbook/</loc>
+    <lastmod>2018-10-29T10:30:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -214,7 +219,7 @@
   
   <url>
     <loc>https://stefvardalos.github.io/</loc>
-    <lastmod>2018-08-27T10:30:00+03:00</lastmod>
+    <lastmod>2018-10-29T10:30:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -226,6 +231,36 @@
   <url>
     <loc>https://stefvardalos.github.io/categories/udacity/</loc>
     <lastmod>2017-10-23T10:30:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/categories/developer/</loc>
+    <lastmod>2018-10-29T10:30:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/categories/express/</loc>
+    <lastmod>2018-08-27T10:30:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/categories/generators/</loc>
+    <lastmod>2017-08-21T12:15:16+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/categories/macos/</loc>
+    <lastmod>2018-10-29T10:30:00+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://stefvardalos.github.io/categories/setup/</loc>
+    <lastmod>2018-10-29T10:30:00+03:00</lastmod>
     <priority>0</priority>
   </url>
   

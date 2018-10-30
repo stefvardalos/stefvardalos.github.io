@@ -75,24 +75,6 @@
     </item>
     
     <item>
-      <title>Express</title>
-      <link>https://stefvardalos.github.io/categories/express/</link>
-      <pubDate>Mon, 27 Aug 2018 10:30:00 +0300</pubDate>
-      
-      <guid>https://stefvardalos.github.io/categories/express/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generators</title>
-      <link>https://stefvardalos.github.io/categories/generators/</link>
-      <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
-      
-      <guid>https://stefvardalos.github.io/categories/generators/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Google</title>
       <link>https://stefvardalos.github.io/categories/google/</link>
       <pubDate>Mon, 23 Oct 2017 10:30:00 +0300</pubDate>
@@ -129,6 +111,15 @@
     </item>
     
     <item>
+      <title>Laptop</title>
+      <link>https://stefvardalos.github.io/categories/laptop/</link>
+      <pubDate>Mon, 29 Oct 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/laptop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Load</title>
       <link>https://stefvardalos.github.io/categories/load/</link>
       <pubDate>Sun, 11 Mar 2018 10:30:00 +0300</pubDate>
@@ -143,6 +134,15 @@
       <pubDate>Thu, 27 Jul 2017 11:20:00 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/logging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacBook</title>
+      <link>https://stefvardalos.github.io/categories/macbook/</link>
+      <pubDate>Mon, 29 Oct 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/macbook/</guid>
       <description></description>
     </item>
     
@@ -206,6 +206,51 @@
       <pubDate>Mon, 23 Oct 2017 10:30:00 +0300</pubDate>
       
       <guid>https://stefvardalos.github.io/categories/udacity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>developer</title>
+      <link>https://stefvardalos.github.io/categories/developer/</link>
+      <pubDate>Mon, 29 Oct 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/developer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>express</title>
+      <link>https://stefvardalos.github.io/categories/express/</link>
+      <pubDate>Mon, 27 Aug 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/express/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>generators</title>
+      <link>https://stefvardalos.github.io/categories/generators/</link>
+      <pubDate>Mon, 21 Aug 2017 12:15:16 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/generators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
+      <link>https://stefvardalos.github.io/categories/macos/</link>
+      <pubDate>Mon, 29 Oct 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>setup</title>
+      <link>https://stefvardalos.github.io/categories/setup/</link>
+      <pubDate>Mon, 29 Oct 2018 10:30:00 +0300</pubDate>
+      
+      <guid>https://stefvardalos.github.io/categories/setup/</guid>
       <description></description>
     </item>
     

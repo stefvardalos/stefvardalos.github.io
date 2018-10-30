@@ -1,0 +1,1465 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https://stefvardalos.github.io/"
+        },
+        "articleSection" : "blog",
+        "name" : "MacBook : Dev Setup",
+        "headline" : "MacBook : Dev Setup",
+        "description" : "MacBook : Dev Setup I have been using mostly linux for many years now but, I just got a new Macbook Pro (2018). I had moderate previous experience with macOS before but I never had one of these machines as my main gear. After my initial &ldquo;wow&rdquo; moments with its screen and some &ldquo;wtf&rdquo; moments with its (lack of) ports, I started migrating my enviroment and searching for whatever I had to install to make this beast my own.",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2018",
+        "datePublished": "2018-10-29 10:30:00 &#43;0300 &#43;0300",
+        "dateModified" : "2018-10-29 10:30:00 &#43;0300 &#43;0300",
+        "url" : "https://stefvardalos.github.io/blog/macbook/",
+        "wordCount" : "993",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            
+                <title>MacBook : Dev Setup</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.49.2" />
+        
+  
+    
+    
+  
+
+  
+
+  <link rel="apple-touch-icon-precomposed" href='https://stefvardalos.github.io/favicon/apple-touch-icon-precomposed-16x16.png'>
+  <link rel="icon" href='https://stefvardalos.github.io/favicon/favicon-16x16.png'>
+  
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content='/favicon/mstile-16x16.png'>
+  <meta name="application-name" content="Stefanos Vardalos">
+  <meta name="msapplication-tooltip" content="Personal Website for Stefanos Vardalos">
+  <meta name="msapplication-config" content='/favicon/ieconfig.xml'>
+
+
+
+        
+            <meta name="author" content="Stefanos Vardalos">
+        
+        
+            
+                <meta name="description" content="Personal Website for Stefanos Vardalos">
+            
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="MacBook : Dev Setup"/>
+<meta name="twitter:description" content="MacBook : Dev Setup I have been using mostly linux for many years now but, I just got a new Macbook Pro (2018). I had moderate previous experience with macOS before but I never had one of these machines as my main gear. After my initial &ldquo;wow&rdquo; moments with its screen and some &ldquo;wtf&rdquo; moments with its (lack of) ports, I started migrating my enviroment and searching for whatever I had to install to make this beast my own."/>
+
+        <meta property="og:title" content="MacBook : Dev Setup" />
+<meta property="og:description" content="MacBook : Dev Setup I have been using mostly linux for many years now but, I just got a new Macbook Pro (2018). I had moderate previous experience with macOS before but I never had one of these machines as my main gear. After my initial &ldquo;wow&rdquo; moments with its screen and some &ldquo;wtf&rdquo; moments with its (lack of) ports, I started migrating my enviroment and searching for whatever I had to install to make this beast my own." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://stefvardalos.github.io/blog/macbook/" /><meta property="article:published_time" content="2018-10-29T10:30:00&#43;03:00"/>
+<meta property="article:modified_time" content="2018-10-29T10:30:00&#43;03:00"/>
+
+        <meta property="og:image" content="https://stefvardalos.github.io//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="MacBook : Dev Setup">
+<meta itemprop="description" content="MacBook : Dev Setup I have been using mostly linux for many years now but, I just got a new Macbook Pro (2018). I had moderate previous experience with macOS before but I never had one of these machines as my main gear. After my initial &ldquo;wow&rdquo; moments with its screen and some &ldquo;wtf&rdquo; moments with its (lack of) ports, I started migrating my enviroment and searching for whatever I had to install to make this beast my own.">
+
+
+<meta itemprop="datePublished" content="2018-10-29T10:30:00&#43;03:00" />
+<meta itemprop="dateModified" content="2018-10-29T10:30:00&#43;03:00" />
+<meta itemprop="wordCount" content="993">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="https://stefvardalos.github.io/css/main.css">
+            <link rel="stylesheet" href="https://stefvardalos.github.io/css/add-on.css">
+            <link rel="stylesheet" href="https://stefvardalos.github.io/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="https://stefvardalos.github.io/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="https://stefvardalos.github.io/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://stefvardalos.github.io/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://stefvardalos.github.io/about/">
+                            <i class="fa fa-user">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://stefvardalos.github.io/projects/">
+                            <i class="fa fa-list">&nbsp;</i>Projects
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            
+                
+                
+                    
+                    
+                
+            
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        
+            
+                
+                
+            
+        
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="https://stefvardalos.github.io/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://stefvardalos.github.io/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://stefvardalos.github.io/about/">
+                            <h3>
+                                <i class="fa fa-user">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://stefvardalos.github.io/projects/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>Projects
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://stefvardalos.github.io/blog/macbook/">MacBook : Dev Setup</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-10-29'>
+                                    October 29, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://stefvardalos.github.io/blog/macbook/" class="image featured">
+            <img src="https://stefvardalos.github.io/img/posts/macbook//macbook.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://stefvardalos.github.io/blog/cooklist/">CookList : From idea to project to finished app</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-08-27'>
+                                    August 27, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://stefvardalos.github.io/blog/cooklist/" class="image featured">
+            <img src="https://stefvardalos.github.io/img/posts/cooklist//appidea.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f&amp;text=MacBook%20%3a%20Dev%20Setup&amp;via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f&amp;title=MacBook%20%3a%20Dev%20Setup" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f&amp;title=MacBook%20%3a%20Dev%20Setup" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&amp;body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="https://stefvardalos.github.io/blog/macbook/">MacBook : Dev Setup</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2018-10-29'>
+            October 29, 2018</time>
+        <span class="author">Stefanos Vardalos</span>
+        
+            <p>5 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f&amp;text=MacBook%20%3a%20Dev%20Setup&amp;via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f&amp;title=MacBook%20%3a%20Dev%20Setup" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f&amp;title=MacBook%20%3a%20Dev%20Setup" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Stefanos%20Vardalos&amp;body=https%3a%2f%2fstefvardalos.github.io%2fblog%2fmacbook%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://stefvardalos.github.io/blog/macbook/" class="image featured">
+            <img src="https://stefvardalos.github.io/img/posts/macbook//macbook.jpg" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<h1 id="macbook-dev-setup">MacBook : Dev Setup</h1>
+
+<p>I have been using mostly linux for many years now but, I just got a new Macbook Pro (2018). I had moderate previous experience with macOS before but I never had one of these machines as my main gear. After my initial &ldquo;wow&rdquo; moments with its screen and some &ldquo;wtf&rdquo; moments with its (lack of) ports, I started migrating my enviroment and searching for whatever I had to install to make this beast my own. Below is a step by step guide of this procedure which covers almost all my needs as a Java / Javascript Developer, although most parts can be valuable to most people as well.</p>
+
+<hr />
+
+<h1 id="the-missing-package-manager">The missing package manager</h1>
+
+<p>Before everything else, we should install Homebrew, the missing package manager for MacOS. Homebrew is mainly used for installing packages and command line utilities but, it can also be used to install normal non-open source applications.This will help a lot with the installation of all the remaining software and packages you will need and also maintaining them ( removing , cleaning dependencies etc ). To do that, open a terminal and run the below command.</p>
+
+<pre><code>≈/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+
+<p>Just follow some on screen instructions and after that is finished, move over to the good stuff.</p>
+
+<h1 id="terminal-on-steroids">Terminal on steroids</h1>
+
+<p>I use terminal a lot during my daily work so this was the first part I tried to upgrade. After some searching i found iTerm2 which covers all the features I was used to with my previous terminals ( tilix on Linux, cmder on Windows ). You can download it from its official <a href="https://www.iterm2.com/index.html">page</a> or, use homebrew that we previously installed :</p>
+
+<pre><code>brew cask install iterm2
+</code></pre>
+
+<p>After the install there are countless things you can tinker on this app but with some more steps we will get a lot more. Next we should change the default unix shell of MacOS from Bash to Z shell. There are various pros to this move like better auto-completion and command history. Zsh comes installed on MacOS but it is better to install its latest version so, type this on your terminal.</p>
+
+<pre><code>brew install zsh
+</code></pre>
+
+<p>After that check your version :</p>
+
+<pre><code>zsh --version
+</code></pre>
+
+<p><em>at the time of writing this, it should be zsh 5.6.2</em></p>
+
+<p>Next make zsh the default unix shell :</p>
+
+<pre><code>chsh -s $(which zsh)
+</code></pre>
+
+<p>Now we can either live with just the zsh or we can install a framework that will bring along many new plugins and themes for our shell. There are various choices here but the one I got in the end is <a href="https://github.com/robbyrussell/oh-my-zsh"><em>oh my zsh</em></a>. To install it just type :</p>
+
+<pre><code>sh -c &quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;
+</code></pre>
+
+<p>Now we can enable whichever plugin we want from the various that the <a href="https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins">framework bring along</a> or new ones found online. To enable the plugins you like, you have to edit your .zshrc file.</p>
+
+<pre><code>vi ~/.zshrc
+</code></pre>
+
+<p>There you must find the plugins array and add the ones that you want.</p>
+
+<p>*some notable mentions here, zsh-syntax-highlighting and zsh-autosuggestions *</p>
+
+<p>Lastly, we should install a prefered theme for iTerm2. Easiest solution would be <a href="https://draculatheme.com/">dracula</a> which can be applied on most other apps/editors as well, although i went with <a href="https://github.com/MartinSeeler/iterm2-material-design">Material Colors</a>. Just download the preffered one and apply it through the Preferences page of iTerm2.</p>
+
+<h1 id="brew-up-your-dev-stack">Brew up your Dev stack</h1>
+
+<p>Now that we have our terminal set up, we can start installing all the required applications. Most of the work below can either be done through Homebrew or by downloading everything from their respective websites. There is one other thing that especially developers will need and that is the need to keep multiple versions of SDK&rsquo;s installed on your machine. Homebrew by default installs the latest one and, for some packages there <em>might</em> be some older versions, but that is not the normal case. For that firstly we will install another tool, the <a href="https://sdkman.io">SDKMAN!</a>. Go on your terminal, type the below command and follow the on-screen instructions.</p>
+
+<pre><code>$ curl -s &quot;https://get.sdkman.io&quot; | bash
+</code></pre>
+
+<p>A list follows with some pretty basic installs that I, and most of us, will have to do.</p>
+
+<ul>
+<li>Java SDK
+<code>
+sdk install java
+</code></li>
+<li>gradle
+<code>
+sdk install gradle
+</code></li>
+<li>mysql
+<code>
+brew install mysql
+</code></li>
+<li>mongodb
+<code>
+brew install mongodb
+</code></li>
+<li>elasticsearch
+<code>
+brew install elasticsearch
+</code></li>
+</ul>
+
+<p>Now, before we move over to actual applications, NodeJS is also required. For this we need the nvm tool to be able to install and change into multiple Node version. Either install the tool itself with :</p>
+
+<pre><code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+</code></pre>
+
+<p>or install the <a href="https://github.com/lukechilds/zsh-nvm">zsh-nvm</a> which will take care of easily upgrading nvm later on. After nvm&rsquo;s installations just install (latest or specific verions) node by typing :</p>
+
+<pre><code>nvm install node
+</code></pre>
+
+<p>which will install latest nodeJS and acompany npm.</p>
+
+<p>Now, lets finish this up with some tools and required editors of choice. I needed the MySQL Workbench, Docker, GitKraken as my git GUI client, PostMan for API Testing, Android Studio for Android Development, Toolbox by Jetbrains which will handle WebStorm for Javascript projects and IntelliJ for Java projects. Furthermore I usually also use SublimeText or Visual Studio Code for simpler things. All the above can be installed with Homebrew so you could just type :</p>
+
+<pre><code>brew cask install \
+    mysqlworkbench \
+    docker \
+    gitkraken \
+    postman \
+    android-studio \
+    jetbrains-toolbox \
+    sublime-text \
+    visual-studio-code
+</code></pre>
+
+<p>After some time everything will be downloaded and installed, ready to use.</p>
+
+<h1 id="required-generics">Required Generics</h1>
+
+<p>Lastly, I made a list of some generic applications that will be needed during daily use, based on personal choice.</p>
+
+<pre><code>brew cask install \
+    gimp \
+    skype \
+    viber \
+    slack \
+    google-chrome \
+    microsoft-office \
+    spotify \
+    vlc \
+    evernote \
+    the-unarchiver
+</code></pre>
+
+<hr />
+
+<p><img src="https://stefvardalos.github.io/img/posts/macbook/macbook2.jpg" alt="MacBook Readt" /></p>
+
+<p>After all these are done installing, I felt like my new and powerfull MacBook is ready to replace my old Dell as my daily driver. Many of these would not apply to anyone but following brew / cask installs it should be a breeze to set up a new machine and have it ready to use in no time.</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="https://stefvardalos.github.io/categories/macbook">MacBook</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://stefvardalos.github.io/categories/macos">macOS</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://stefvardalos.github.io/categories/setup">setup</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://stefvardalos.github.io/categories/laptop">Laptop</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://stefvardalos.github.io/categories/developer">developer</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "shortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="https://stefvardalos.github.io/blog/cooklist/"
+                class="button big previous">CookList : From idea to project to finished app</a></li>
+    
+
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='https://stefvardalos.github.io/'><img src="https://stefvardalos.github.io/img/main/coding_rec.png" width="40%" alt="StefanosVardalos" /></a>
+      
+    
+    
+      <header>
+        <h2>Stefanos Vardalos</h2>
+        <p>I'm a software engineer <i class="fa fa-desktop" aria-hidden="true"></i>, a moviegoer <i class="fa fa-film" aria-hidden="true"></i>, a music lover <i class="fa fa-headphones" aria-hidden="true"></i>, a book reader <i class="fa fa-book" aria-hidden="true"></i>, a OnePlus enthusiast <i class="fa fa-mobile" aria-hidden="true"></i>, a tv series addicted <i class="fa fa-television" aria-hidden="true"></i>, a geek <i class="fa fae-glass" aria-hidden="true"></i>.</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://stefvardalos.github.io/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/stefvardalos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//medium.com/@stefvardalos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+  <li><a href="//linkedin.com/in/stefvardalos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:stefvardalos@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://stefvardalos.github.io/blog/macbook/">MacBook : Dev Setup</a>
+              </h3>
+              
+              <time class="published" datetime='2018-10-29'>
+                October 29, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://stefvardalos.github.io/blog/macbook/" class="image featured">
+            <img src="https://stefvardalos.github.io/img/posts/macbook//macbook.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://stefvardalos.github.io/blog/cooklist/">CookList : From idea to project to finished app</a>
+              </h3>
+              
+              <time class="published" datetime='2018-08-27'>
+                August 27, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="https://stefvardalos.github.io/blog/cooklist/" class="image featured">
+            <img src="https://stefvardalos.github.io/img/posts/cooklist//appidea.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="https://stefvardalos.github.io/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/javascript/">Javascript</a>
+                <span style="float:right;">4</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/angular/">Angular</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/android/">Android</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/blog/">Blog</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/css/">CSS</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/certification/">Certification</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/debugging/">Debugging</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/devops/">DevOps</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/google/">Google</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/html/">HTML</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/java/">Java</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/laptop/">Laptop</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/load/">Load</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/logging/">Logging</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/macbook/">MacBook</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/mongo/">Mongo</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/nginx/">Nginx</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/nodejs/">NodeJS</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/proxy/">Proxy</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/react.js/">React.js</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/server/">Server</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/udacity/">Udacity</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/developer/">developer</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/express/">express</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/generators/">generators</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/macos/">macOS</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://stefvardalos.github.io/categories/setup/">setup</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>I am a FullStack Developer, living in Greece. I studied Automation Engineering and I got a Master at Advanced Computing and Informatics Systems. This is the place where I will try to write about the things I find interesting.</p>
+      <a href="https://stefvardalos.github.io/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://stefvardalos.github.io/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/stefvardalos" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//medium.com/@stefvardalos" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+  <li><a href="//linkedin.com/in/stefvardalos" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:stefvardalos@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2018
+        
+          Stefanos Vardalos
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="https://stefvardalos.github.io/js/util.js"></script>
+      <script src="https://stefvardalos.github.io/js/main.js"></script>
+      <script src="https://stefvardalos.github.io/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+
